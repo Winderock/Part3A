@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-"""AI Game Assistant: Uses vision model to recognize screenshots and perform click/move operations"""
 
 import base64
 import os
@@ -16,7 +15,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_BASE_URL = os.getenv("OPENAI_API_BASE", "https://dashscope-intl.aliyuncs.com/compatible-mode/v1")
+API_BASE_URL = os.getenv(
+    "OPENAI_API_BASE", "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
+)
 API_KEY = os.getenv("DASHSCOPE_API_KEY")
 MODEL = os.getenv("VISION_MODEL", "qwen-vl-plus")
 
@@ -34,7 +35,6 @@ WEBPAGE_INSET = (0, 0, 0, 0)  # Use entire window; model coords + offset = scree
 # Sometimes json from model causes: json.decoder.JSONDecodeError: Expecting ',' delimiter: line 5 column 20 (char 78). Model response may not be valid format.
 
 ###################
-
 
 
 PROMPT = """You are playing a simple clicking videogame. There is a green sphere on the screen. To gain score you need to move your mouse precisely onto the sphere and click it.
@@ -76,7 +76,9 @@ def get_window_region(title: str) -> Tuple[Tuple[int, int, int, int], Tuple[int,
     """
     wins = gw.getWindowsWithTitle(title)
     if not wins:
-        raise RuntimeError(f"No window found with title containing '{title}'. Use gw.getAllTitles() to list all window titles.")
+        raise RuntimeError(
+            f"No window found with title containing '{title}'. Use gw.getAllTitles() to list all window titles."
+        )
     w = wins[0]
     w.activate()  # Bring to front, ensure correct content is captured
     time.sleep(0.1)
@@ -156,7 +158,9 @@ def execute_actions(actions: list, offset: Tuple[int, int] = (0, 0)) -> None:
         action_type = item.get("action", "").lower()
         reason = item.get("reason", "")
         confidence = item.get("confidence", 0)
-        print(f"  Executing: {action_type} | Reason: {reason} | Confidence: {confidence:.2f}")
+        print(
+            f"  Executing: {action_type} | Reason: {reason} | Confidence: {confidence:.2f}"
+        )
 
         if action_type == "click":
             pyautogui.click()
@@ -170,9 +174,9 @@ def execute_actions(actions: list, offset: Tuple[int, int] = (0, 0)) -> None:
 def step(step_num: int):
     """Single step: screenshot -> call API -> parse JSON -> execute actions"""
     filepath, offset = take_screenshot(window_title=WINDOW_TITLE, step_num=step_num)
-    #print(f"[Screenshot saved] {filepath}" + (f" (window offset {offset})" if offset != (0, 0) else ""))
+    # print(f"[Screenshot saved] {filepath}" + (f" (window offset {offset})" if offset != (0, 0) else ""))
 
-    #call model
+    # call model
     raw_response = call_vision_api(filepath)
     print(f"[Model output]\n{raw_response}")
 
