@@ -1,0 +1,1461 @@
+Per-image accuracy (this run):
+  a.png: 100/100 correct (100.0%)
+  b.png: 100/100 correct (100.0%)
+
+Run accuracy (all graded): 200/200 correct (100.0%)
+==========Screenshot a.png (repeat 1/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned at the edge of a platform with a large gap to the right. Moving right is necessary to progress toward the goal. Holding the 'd' key will allow the player to move right continuously."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 1/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to progress. Holding the 'd' key will move the character to the right side of the level efficiently."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 2/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of a gap, and the goal is to move to the right side of the level. Holding the 'd' key will move the player rightward, which is necessary to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 2/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with a large gap to the right, but there is no visible obstacle or ledge to jump onto. Moving right with the 'd' key is the only logical action to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 3/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the left side of the level, and the objective is to reach the right side. There are no obstacles in the immediate path to the right, so pressing 'd' to move right is the most straightforward and efficient action to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 3/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the left side of the level and needs to move right to reach the right side. Pressing 'd' will move the character rightward to progress."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 4/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the edge of the screen, facing right. There are no visible obstacles to the right, and the goal is to move to the right side of the level. Holding the 'd' key will move the character rightward, which is the most direct and efficient action to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 4/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with a large blue void to the right, indicating the goal is to move right. There are no visible obstacles or gaps that require jumping, so holding 'd' will move the character towards the right side of the level efficiently."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 5/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a clear path to the right side of the level. To progress efficiently, I should hold the 'd' key to move right and continue toward the goal."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 5/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the screen, with no visible obstacles blocking forward movement. The most direct and efficient way to progress is to move right by pressing the 'd' key."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 6/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level. The objective is to move to the right side, and there is a clear path ahead without any visible obstacles. Therefore, pressing and holding the 'd' key will move the character forward efficiently to reach the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 6/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform with a large blue area to the right, which likely represents an open space or the next level. Since the goal is to move to the right side of the level, holding the 'd' key will allow continuous movement to the right."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 7/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge, and the goal is to move to the right side of the level. Pressing 'd' will move the player rightward to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 7/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the left side of the screen and needs to move to the right side of the level. There are no obstacles in the immediate right direction, so pressing 'd' to move right is the most straightforward and efficient action to progress."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 8/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the left side of the level, with open space to the right. To progress towards the right side of the level, the player should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 8/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with an open blue space to the right, indicating that moving right will progress the level. Holding the 'd' key will allow continuous movement to the right without needing to jump, which is efficient for reaching the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 9/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a ledge with a large blue area to the right, indicating a need to move right to progress. Holding the 'd' key will move the player toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 9/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, and the objective is to move to the right side. There are no visible obstacles blocking forward movement, so holding the 'd' key will allow the character to move right efficiently toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 10/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of a large gap, and the goal is to reach the right side of the level. Moving right with the 'd' key is the only viable direction to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 10/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform with no immediate obstacles, and the goal is to move to the right side of the level. Pressing the 'd' key will move the character forward efficiently."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 11/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of the level, with the right side being the goal. Moving right with the 'd' key is the most direct way to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 11/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform near the right edge of the visible area. To progress to the right side of the level, the player needs to move right. Holding the 'd' key will move the player to the right, which is the necessary action to achieve the objective."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 12/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge, but still within the level. To progress toward the right side of the level, moving right with the 'd' key is the necessary and efficient action."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 12/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large gap to the right. To progress, the player needs to move right. Pressing 'd' will move the player forward toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 13/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned at the edge of a platform, and the goal is to move to the right side of the level. Pressing 'd' will move the player rightward to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 13/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large gap to the right. To progress, the player needs to move right. Holding 'd' will allow continuous movement towards the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 14/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform with a large blue void to the right, indicating a need to move right to progress. Holding the 'd' key will move the character towards the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 14/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large gap to the right, but there is no visible obstacle blocking the path. Moving right with the 'd' key is the most direct way to progress toward the goal of reaching the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 15/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of the screen, and the goal is to move to the right side. Pressing 'd' will move the player rightward along the platform to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 15/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large empty space to the right, indicating that moving right is the logical next step to progress. Holding the 'd' key will move the character forward."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 16/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a ledge with a large blue area to the right, which likely represents an open space or goal area. To progress towards the right side of the level, the player should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 16/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the left side of the level. To reach the right side, the character needs to move right. Pressing 'd' will move the character to the right along the platform, which is the most direct and efficient way to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 17/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a ledge with an open space to the right, indicating the goal is to move right. Holding 'd' will move the player forward toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 17/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge, and the goal is to move to the right side of the level. Pressing 'd' will move the character rightward to progress."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 18/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge, and the goal is to reach the right side of the level. Pressing 'd' will move the player rightward along the platform, which is the most direct and efficient way to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 18/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the edge of a large gap. To progress to the right side of the level, the character needs to move right. Holding the 'd' key will move the character continuously to the right, which is the most straightforward and efficient action to achieve the objective."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 19/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue void to the right, indicating that moving right is necessary to progress. Holding 'd' will move the player forward toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 19/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with a large blue area to the right, indicating an open space to move into. Pressing 'd' will move the player to the right, which is the objective."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 20/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large blue area to the right, which likely represents the goal or next area. Moving right with 'd' will progress towards the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 20/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large open space to the right, which is the intended direction of movement. Holding 'd' will allow the character to move rightward across the screen to reach the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 21/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the left side of the level, and the goal is to reach the right side. There are no immediate obstacles, so moving right with the 'd' key is the most direct and efficient action to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 21/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue void to the right. To progress toward the right side of the level, the character needs to move right. Pressing 'd' will move the character to the right, which is the necessary action to achieve the objective."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 22/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of the screen, with a large blue area to the right. Moving right is the only logical way to progress toward the right side of the level. Holding 'd' will move the player rightward to explore or reach the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 22/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with open space to the right. To progress toward the right side of the level, the character needs to move right. Pressing the 'd' key will move the character horizontally to the right."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 23/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large gap to the right. To progress, the player needs to move right. Holding the 'd' key will move the player continuously to the right, which is the most efficient way to approach the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 23/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with a large open blue space to the right, indicating the goal is to move right. Pressing 'd' will move the character toward the goal without any immediate obstacles to jump over or avoid."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 24/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the visible area. To progress to the right side of the level, the most direct action is to hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 24/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the left side of the screen, with a large blue area (likely a void or obstacle) to the right. To progress, I need to move right. Pressing 'd' will move the character to the right, which is the necessary action to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 25/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with open space to the right, indicating the goal is to move right. Pressing 'd' will move the character forward toward the objective without any obstacles in the way."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 25/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge, with a large blue area (likely empty space or a void) to the right. To progress towards the right side of the level, the character must move right. Holding the 'd' key will move the character continuously to the right."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 26/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, and the goal is to move to the right side. There are no obstacles in the immediate right direction, so holding the 'd' key will move the player forward efficiently toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 26/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform with a large blue void to the right, indicating the goal is to move right. Pressing 'd' will move the character forward toward the right side of the level without any immediate obstacles to jump over."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 27/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a ledge with a large gap to the right, which needs to be crossed. Moving right with the 'd' key is necessary to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 27/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform and needs to move right to reach the goal. Pressing 'd' will move the character to the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 28/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the screen, with the goal to reach the right side. There are no visible obstacles in the immediate right direction, so holding the 'd' key will move the player forward toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 28/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the left side of the screen, with a large empty blue area to the right. Since the objective is to move to the right side of the level, and there are no visible obstacles blocking the right path, the most direct and efficient action is to hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 29/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a ledge near the right edge of the screen, but there appears to be a gap or drop-off to the right. To progress, the player needs to move right. Holding the 'd' key will allow the character to move rightward across the platform, which is necessary to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 29/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the visible area. To progress toward the right side of the level, the most efficient action is to hold the 'd' key to move right."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 30/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge, and the goal is to move to the right side of the level. Moving right with the 'd' key is the most direct and efficient way to progress, as there are no visible obstacles or gaps to jump over immediately ahead."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 30/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with open space to the right, indicating that moving right is the logical next step to progress. Holding 'd' will move the character forward without jumping, which is efficient for crossing the open area."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 31/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the edge of the level, and the goal is to move to the right. Pressing 'd' will move the player rightward to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 31/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with an open blue space to the right, indicating that moving right is the logical next step to progress. Holding 'd' will move the character to the right to reach the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 32/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of the screen, with the goal to move to the right side of the level. There are no obstacles in the immediate right direction, so holding the 'd' key will allow continuous movement to the right to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 32/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with a large blue area to the right, which likely represents an open space or level continuation. Moving right with the 'd' key is the most direct way to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 33/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge of the visible area, with a large blue void to the right. To progress, the player needs to move right. Holding the 'd' key will move the player to the right, allowing them to explore the level further."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 33/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with a large blue area to the right, indicating there is space to move forward. Since the objective is to reach the right side of the level, pressing the 'd' key to move right is the most direct and efficient action."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 34/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, with an open blue space to the right. To reach the right side of the level, the player should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 34/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large gap to the right, and the objective is to move to the right side of the level. Pressing 'd' will move the character rightward, which is the necessary action to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 35/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the left side of the level, with a large empty blue space to the right. Since the goal is to move to the right side of the level, the most efficient action is to hold the 'd' key to move right continuously."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 35/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with a large gap to the right, but there is no visible obstacle blocking the path forward. Moving right with the 'd' key is the logical action to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 36/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform near the right edge, but there is still space to the right. To progress, I should hold the 'd' key to move right and eventually reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 36/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 37/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, with a large gap to the right. To progress toward the right side of the level, the player should hold the 'd' key to move right continuously."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 37/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge, with a large empty blue space to the right. To progress toward the right side of the level, the character needs to move right. Holding the 'd' key will move the character continuously to the right without requiring any other input."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 38/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue void to the right, indicating a need to move right to progress. Holding 'd' will allow the player to move rightward across the platform to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 38/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the goal. Holding 'd' will move the player to the right side of the level efficiently."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 39/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of a large blue void. To progress to the right side of the level, the player needs to move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 39/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform and needs to move right to reach the right side of the level. Pressing 'd' will move the character forward toward the goal."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 40/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, with an open space to the right. To progress and reach the right side of the level, the player should move right. Holding the 'd' key will allow continuous movement to the right."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 40/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large gap to the right, but there is no immediate obstacle in front. To progress towards the right side of the level, the player should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 41/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, with a large blue area to the right. To progress and reach the right side of the level, moving right is necessary. Holding the 'd' key will move the player to the right along the platform."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 41/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform near the right edge of the screen. To progress to the right side of the level, the player should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 42/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the left side of the screen, and the goal is to move to the right side of the level. There are no visible obstacles blocking forward movement, so holding the 'd' key will allow the character to move right and progress toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 42/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large empty space to the right, indicating that moving right is the intended direction to progress. Holding the 'd' key will allow continuous movement to the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 43/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform near the right edge of the screen, and the objective is to move to the right side of the level. Pressing 'd' will move the player rightward to progress."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 43/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with an open blue area to the right, indicating the goal is to move right. Pressing 'd' will move the player towards the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 44/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the edge of the screen, and the goal is to move to the right side of the level. There are no visible obstacles to the right, so holding the 'd' key will allow the player to move right efficiently toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 44/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue void to the right, indicating that moving right is necessary to progress. There are no immediate obstacles blocking the path, so holding the 'd' key will allow the character to move right toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 45/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue void to the right. To progress, the player must move right, which requires pressing the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 45/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform near the right edge of the screen, but there is still space to move right. Pressing 'd' will move the character rightward to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 46/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a ledge with a large gap to the right. To progress toward the right side of the level, the player needs to move right. Holding the 'd' key will allow continuous movement to the right, which is the most direct and efficient way to advance in this scenario."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 46/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform and needs to move right to progress. Holding 'd' will move the player continuously to the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 47/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of the screen. To progress to the right side of the level, the player needs to move right. Pressing 'd' will move the player horizontally to the right without requiring any additional action."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 47/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the edge of a large blue void. To reach the right side of the level, the character needs to move right. Pressing 'd' will move the character to the right along the platform, which is the most direct way to progress."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 48/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue void to the right, which likely represents an area to explore. Since the goal is to move to the right side of the level, the most direct and efficient action is to press and hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 48/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to progress. Holding 'd' will move the player to the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 49/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, with a large blue void to the right. To progress and reach the right side of the level, the player must move right by pressing the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 49/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the left side of the screen, with a large blue area to the right that likely represents the goal area. To reach the right side of the level, moving right is necessary. Pressing 'd' will move the character to the right, which is the most direct and efficient action to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 50/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of the visible area, with no immediate obstacles or gaps to jump over. The most logical and efficient action to progress toward the right side of the level is to hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 50/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform and needs to move right to progress. Holding 'd' will move the character toward the right side of the level without requiring a jump."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 51/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the left side of the level and needs to move right to progress. There are no immediate obstacles in the way, so holding the 'd' key will move the player toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 51/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with clear space to the right, and there are no visible obstacles. Pressing 'd' will move the character forward toward the right side of the level to progress."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 52/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue area to the right, which likely represents an open space or goal area. To progress toward the right side of the level, the player should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 52/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large gap to the right. To progress, the character must move right. Holding the 'd' key will allow continuous movement toward the goal area."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 53/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the edge of the level, and the goal is to move to the right side. Holding the 'd' key will move the player rightward along the platform toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 53/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the visible area. To progress toward the right side of the level, the character needs to move right. Holding the 'd' key will make the character walk right, which is the most direct and efficient action to achieve the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 54/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the left side of the level, and the goal is to reach the right side. There are no immediate obstacles blocking the path forward, so moving right with the 'd' key is the most efficient way to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 54/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with an open blue space to the right, indicating a clear path forward. To progress toward the right side of the level, the character needs to move right. Holding the 'd' key will allow continuous movement to the right."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 55/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the edge of a gap, and the goal is to reach the right side of the level. Moving right with the 'd' key is necessary to progress. Since there is no immediate obstacle blocking the way to the right, holding 'd' will allow the character to move forward along the platform toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 55/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the left side of the screen, with a large open blue area to the right. There are no visible obstacles blocking the rightward path. To progress toward the right side of the level, the most efficient action is to hold the 'd' key to move right continuously."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 56/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with a large gap to the right. To progress, the player needs to move right. Holding the 'd' key will allow continuous movement to the right, which is the most direct way to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 56/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform with a large empty space to the right, indicating the goal is to move right. Holding the 'd' key will move the character forward toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 57/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue area to the right, which likely represents an open space or goal area. Moving right is the logical next step to progress toward the objective."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 57/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to progress. Pressing 'd' will move the player to the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 58/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the edge of the screen, and the objective is to move to the right side of the level. Holding the 'd' key will move the player rightward to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 58/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform and needs to move right to progress. There are no immediate obstacles blocking the right path, so pressing 'd' to move right is the most efficient action to achieve the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 59/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue area to the right, indicating the goal is to move rightward. There are no visible obstacles blocking the path to the right, so pressing 'd' will move the character forward toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 59/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform, and the objective is to move to the right side of the level. Since there are no visible obstacles immediately ahead and the platform extends to the right, holding the 'd' key will allow the character to move rightward efficiently."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 60/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of a gap, with the goal being to reach the right side. Holding the 'd' key will allow the player to move rightward along the platform to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 60/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform with a large blue area to the right, indicating an open space to move into. Since the goal is to reach the right side of the level, pressing 'd' will move the character forward efficiently without any obstacles in the immediate path."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 61/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge, but there is a gap to the right. Moving right with 'd' will allow the player to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 61/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with an open space to the right, indicating that moving right is the logical next step to progress. Holding the 'd' key will move the player rightward, allowing them to advance toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 62/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large blue void to the right, indicating a gap that needs to be crossed. To proceed toward the right side of the level, the player should hold the 'd' key to move right, potentially preparing for a jump if necessary."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 62/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue area to the right, indicating the goal is to move right. Holding 'd' will move the character to the right side of the level efficiently."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 63/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a ledge with open space to the right, which is the target area. To reach it, the player needs to move right. Pressing 'd' will move the player toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 63/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with a large blue area to the right, indicating an open space to move into. To progress toward the right side of the level, moving right using the 'd' key is necessary."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 64/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a ledge at the edge of the visible level. Moving right is the only logical action to progress toward the goal, as there are no obstacles in the immediate right direction, and holding 'd' will allow continuous movement toward the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 64/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large blue area to the right, which likely represents an open space or goal area. To progress, the player needs to move right. Holding the 'd' key will allow continuous movement to the right, which is the most direct and efficient way to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 65/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge, with a large blue area (likely a void or hazard) to the right. To progress, the player needs to move right, so holding the 'd' key will move the player toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 65/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with a large blue area to the right, which likely represents the goal or next area. To progress toward the right side of the level, the player should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 66/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, with the goal to move right. There are no visible obstacles blocking the path to the right, so holding the 'd' key will move the player forward efficiently toward the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 66/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with a large blue void to the right, indicating that moving right is necessary to progress. Since there are no obstacles blocking the path, holding the 'd' key will move the player forward toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 67/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to progress. Holding the 'd' key will move the character to the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 67/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large gap to the right, which needs to be crossed to progress. Pressing 'd' will move the player rightward toward the goal."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 68/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level and needs to move right to progress. Holding the 'd' key will allow continuous movement to the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 68/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of the visible area. Moving right will allow progress toward the right side of the level, which is the objective. Holding 'd' will move the character to the right without any immediate obstacles."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 69/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of a gap, with the right side being the goal. To progress, the player needs to move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 69/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform with an open blue space to the right, indicating that moving right is the intended progression. Holding 'd' will move the character toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 70/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of the screen, with the goal being to reach the right side of the level. Moving right with the 'd' key is the most direct and efficient action to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 70/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the edge of the screen, with an empty blue space to the right. To progress toward the right side of the level, the player should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 71/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the edge of the visible level. To progress to the right side of the level, the player needs to move right. Pressing 'd' will move the character to the right, which is the necessary action to achieve the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 71/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform at the edge of a gap. To progress to the right side of the level, I should hold the 'd' key to move right, which is the most direct and efficient action to achieve the objective."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 72/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, with an open blue area to the right which likely represents the goal or next area. Since there are no visible obstacles to the right, moving right is the logical next step to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 72/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue void to the right, indicating that moving right is the only way to progress. Holding 'd' will move the character toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 73/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, and the objective is to reach the right side. There are no visible obstacles blocking the path to the right, so moving right by holding the 'd' key is the most direct and efficient action to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 73/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the edge, with an open blue area to the right. To progress toward the right side of the level, the player should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 74/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of a gap, facing the right side of the level. To progress, the player needs to move right to reach the goal. Holding the 'd' key will move the player to the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 74/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with an open space to the right, indicating that moving right will progress toward the goal. Holding the 'd' key will allow continuous movement to the right without needing to jump, as there are no obstacles blocking the path."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 75/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the left side of the level. The goal is to move to the right side. There are no visible obstacles or gaps directly ahead, so pressing 'd' to move right is the logical and efficient action to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 75/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the goal. Pressing 'd' will move the character forward."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 76/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with open space to the right, and moving right is the direct way to progress toward the objective."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 76/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with clear space to the right, and there are no visible obstacles or gaps immediately ahead. To progress toward the right side of the level, the most efficient action is to hold the 'd' key to move right."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 77/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of a gap, with the goal being to reach the right side. Moving right with the 'd' key is the logical first step to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 77/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large gap to the right, but there is no visible ledge or obstacle immediately ahead. To progress, the player needs to move right. Holding the 'd' key will move the character to the right, allowing them to reach the next platform or area."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 78/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the screen, with a large blue area (likely water or empty space) to the right. To progress toward the right side of the level, the player should move right using the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 78/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the edge of a gap, and the goal is to move to the right side of the level. Pressing 'd' will move the character rightwards to progress."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 79/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the visible screen, but there is still space to the right to progress. To move forward efficiently, I should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 79/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the left side of the screen, and the goal is to move to the right side of the level. There are no visible obstacles blocking forward movement, so pressing the 'd' key to move right is the most direct and efficient action to progress."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 80/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the left side, and the goal is to reach the right side. There are no visible obstacles in front, so moving right with the 'd' key is the most efficient action to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 80/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large blue void to the right, indicating that moving right is necessary to progress. Holding the 'd' key will move the player toward the goal without any immediate obstacles."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 81/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of a gap. To progress to the right side of the level, I need to move right. Holding the 'd' key will allow the character to walk right and reach the next area."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 81/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge, with open space to the right. To progress toward the right side of the level, the player should move right by holding the 'd' key."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 82/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the left side of the level, and the goal is to reach the right side. There are no visible obstacles in the way, so the most efficient action is to hold the 'd' key to move right continuously."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 82/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with space to the right, and moving right is the only logical action to progress toward the goal of reaching the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 83/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge, and the objective is to move to the right side of the level. Pressing 'd' will move the player rightward to progress."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 83/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform with an open area to the right, and there are no visible obstacles to block movement. Pressing 'd' will move the character to the right to progress towards the goal."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 84/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large blue void to the right, indicating a need to move right to progress. Holding 'd' will move the player towards the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 84/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the edge, with the goal being to move right. Holding 'd' will allow continuous movement to the right, which is the most direct way to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 85/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of the screen. To progress to the right side of the level, the player needs to move right. Holding the 'd' key will allow the player to move forward along the platform."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 85/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large gap to the right, and there is no visible obstacle or ledge immediately ahead. Moving right with the 'd' key is the most direct way to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 86/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of the level, with a large empty space to the right. To progress, the player should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 86/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large gap to the right, and there is no visible obstacle in front. The only way to progress is to move right. Holding the 'd' key will allow the character to move continuously to the right, which is necessary to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 87/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of the visible area, with the right side being the target area. To move forward and reach the right side of the level, the player should press 'd' to move right."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 87/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the edge of the screen, and the objective is to move to the right side of the level. There are no visible obstacles blocking forward movement, so pressing 'd' to move right is the most direct and efficient action to progress."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 88/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the edge of a large blue area, which likely represents a gap or void. To progress, the player needs to move right to reach the other side. Pressing 'd' will move the character rightward, which is the necessary action to advance in the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 88/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with open space to the right, indicating the goal is to move right. Holding 'd' will move the character toward the right side of the level without any obstacles in the immediate path."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 89/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the left side of the level, with the right side being an open blue area. To progress towards the right side, the player should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 89/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with open space to the right, indicating the goal is to move right. There are no obstacles blocking the right path, so holding the 'd' key will move the character forward efficiently."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 90/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, with the right side being open space. To progress toward the right side of the level, the player should press and hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 90/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge, but there is a large blue area (likely a void or water) to the right that needs to be crossed. The only viable way forward is to move right using the 'd' key. Since the player can jump while moving, holding 'd' will allow continuous movement to the right, which is necessary to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 91/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the edge of the screen, and the goal is to move to the right side. Pressing 'd' will move the player to the right, which is the most direct and efficient action to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 91/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the left side of the level, and the objective is to move to the right side. There are no visible obstacles in front, so pressing the 'd' key to move right is the most efficient action to progress."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 92/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, with the goal being to reach the right side. There are no obstacles in the immediate path to the right, so moving right with the 'd' key is the most direct and efficient action to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 92/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform near the right edge, with a large blue area ahead. Moving right with 'd' will progress toward the goal without any obstacles blocking the path."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 93/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with open space to the right, indicating that moving right is the next logical step to progress toward the goal of reaching the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 93/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large gap to the right, but there's no visible obstacle blocking the right path. Moving right with the 'd' key is the most direct way to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 94/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge, but not yet at the far right side. To progress, the player needs to move right. Holding the 'd' key will move the player to the right to reach the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 94/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with a large blue area to the right, which likely represents the goal or next area. Moving right with the 'd' key is the most direct way to progress toward the objective."
+}
+```
+GRADE: correct
+==========Screenshot a.png (repeat 95/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the screen and needs to move right to progress. Pressing 'd' will move the player to the right side of the level without requiring any additional actions."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 95/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large blue area to the right, which likely represents open space to explore. To progress toward the right side of the level, the player should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 96/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a ledge with a large blue void to the right, indicating a need to move right to progress. Holding 'd' will move the player toward the goal area."
+}
+```
+GRADE: correct
+==========Screenshot b.png (repeat 96/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform near the left side of the screen, with open space to the right. To progress toward the right side of the level, the character should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 97/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform near the right edge, but there is still space to move right. Holding 'd' will allow continuous movement to the right side of the level, which is the objective."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 97/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of the screen, with a large gap to the right. To progress, the player needs to move right. Pressing 'd' will move the player to the right, which is the necessary action to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 98/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of the level, facing right. To progress, they need to move right. Pressing 'd' will move the character to the right, which is necessary to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 98/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the edge of a large blue void. To progress toward the right side of the level, the player needs to move right. Pressing 'd' will move the character to the right, which is the necessary action to achieve the objective."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 99/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of a gap, and moving right is necessary to progress toward the right side of the level. Holding the 'd' key will allow continuous movement to the right without jumping, which is the most straightforward approach to reach the goal."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 99/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the left side of the level, and the goal is to move to the right side. There are no immediate obstacles blocking the rightward path, so holding the 'd' key will allow the character to move right and progress toward the goal."
+}
+GRADE: correct
+==========Screenshot a.png (repeat 100/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the left side of the level and needs to move right to progress. Pressing 'd' will move the player to the right, allowing them to explore the level and eventually reach the right side."
+}
+GRADE: correct
+==========Screenshot b.png (repeat 100/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue void to the right, indicating the goal is to move right. There are no visible obstacles blocking the path forward, so pressing 'd' will move the character toward the right side of the level."
+}
+GRADE: correct

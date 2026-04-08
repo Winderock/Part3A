@@ -1,4 +1,4 @@
-pyautogui>=1.0.0
-openai>=1.0.0
-python-dotenv>=1.0.0
-pygetwindow>=0.0.9
+pyautogui
+openai
+python-dotenv
+pygetwindow

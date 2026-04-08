@@ -1,0 +1,1879 @@
+Per-image accuracy (this run):
+  beside_edge.png: 8/100 correct (8.0%)
+  plain_ground.png: 40/100 correct (40.0%)
+
+Run accuracy (all graded): 48/200 correct (24.0%)
+==========Screenshot beside_edge.png (repeat 1/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is standing on the left platform, and the right platform is directly adjacent with no gap. The player can simply move right to reach the goal."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is standing on the left platform, and the right platform is directly adjacent with no gap. The player can simply move right to reach the goal."}
+==========Screenshot plain_ground.png (repeat 1/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large open space to the right, which is the goal area. Moving right with the 'd' key is the most direct and efficient way to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 2/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is currently standing on the left platform, and there is a gap between the two platforms. Jumping alone would not be sufficient to cross the gap, as there is no visible landing platform on the right side. The player should first move right to approach the edge and then jump to attempt crossing, but since there is no immediate landing point, the most reasonable action is to pause and assess the situation. However, the game may require jumping to initiate the movement, so a small jump might be necessary to adjust position before attempting the cross."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is currently standing on the left platform, and there is a gap between the two platforms. Jumping alone would not be sufficient to cross the gap, as there is no visible landing platform on the right side. The player should first move right to approach the edge and then jump to attempt crossing, but since there is no immediate landing point, the most reasonable action is to pause and assess the situation. However, the game may require jumping to initiate the movement, so a small jump might be necessary to adjust position before attempting the cross."}
+==========Screenshot plain_ground.png (repeat 2/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on a ledge with a clear path to the right, and there are no obstacles or hazards immediately ahead. To proceed efficiently, the player should simply press the 'd' key to move right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on a ledge with a clear path to the right, and there are no obstacles or hazards immediately ahead. To proceed efficiently, the player should simply press the 'd' key to move right."}
+==========Screenshot beside_edge.png (repeat 3/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned on the left platform and needs to reach the right platform. Jumping while moving right will allow the player to clear the gap between the platforms."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 3/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the left side of the screen and needs to move to the right to complete the objective. Holding 'd' will move the player to the right across the platform without jumping, which is the most direct and efficient action."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 4/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the gap."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the gap."}
+==========Screenshot plain_ground.png (repeat 4/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the level, which is the objective. There are no obstacles preventing movement further right, and no need to jump or move left."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the level, which is the objective. There are no obstacles preventing movement further right, and no need to jump or move left."}
+==========Screenshot beside_edge.png (repeat 5/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned on the left platform and needs to reach the right platform. Jumping right (using 'd' and 'space' together) is the most direct way to cross the gap, as there are no obstacles in the way. Holding both keys will initiate a rightward jump to land on the target platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 5/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the visible platform, and there are no obstacles preventing further rightward movement. No action is needed to proceed."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the visible platform, and there are no obstacles preventing further rightward movement. No action is needed to proceed."}
+==========Screenshot beside_edge.png (repeat 6/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will allow the player to move right toward the goal."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will allow the player to move right toward the goal."}
+==========Screenshot plain_ground.png (repeat 6/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already standing on a platform at the edge of the level. There are no obstacles blocking the right path, so no immediate action is required to proceed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already standing on a platform at the edge of the level. There are no obstacles blocking the right path, so no immediate action is required to proceed."}
+==========Screenshot beside_edge.png (repeat 7/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the character to the right, which is the most direct action to progress toward the right side of the level."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player character is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the character to the right, which is the most direct action to progress toward the right side of the level."}
+==========Screenshot plain_ground.png (repeat 7/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned at the right edge of the visible platform, which is the goal area. There are no obstacles preventing further rightward movement, and no need to jump or move left."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned at the right edge of the visible platform, which is the goal area. There are no obstacles preventing further rightward movement, and no need to jump or move left."}
+==========Screenshot beside_edge.png (repeat 8/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right platform. Moving right with the 'd' key will allow the player to progress toward the goal."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right platform. Moving right with the 'd' key will allow the player to progress toward the goal."}
+==========Screenshot plain_ground.png (repeat 8/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform and needs to move right to reach the right side of the level. Pressing 'd' will move the player to the right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 9/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding the 'd' key will move the player to the right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding the 'd' key will move the player to the right."}
+==========Screenshot plain_ground.png (repeat 9/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue area to the right. To reach the right side of the level efficiently, moving right with the 'd' key is the most direct action. Holding 'd' will allow continuous movement toward the goal."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 10/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right platform efficiently."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right platform efficiently."}
+==========Screenshot plain_ground.png (repeat 10/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on a platform near the right edge of the visible area, and there are no obstacles or gaps preventing forward movement. Since the objective is to reach the right side of the level, moving right with the 'd' key is the most direct and efficient action."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on a platform near the right edge of the visible area, and there are no obstacles or gaps preventing forward movement. Since the objective is to reach the right side of the level, moving right with the 'd' key is the most direct and efficient action."}
+==========Screenshot beside_edge.png (repeat 11/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on the left platform and needs to move to the right platform. Holding 'd' will move the character to the right, which is the direct and efficient way to reach the goal."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player character is positioned on the left platform and needs to move to the right platform. Holding 'd' will move the character to the right, which is the direct and efficient way to reach the goal."}
+==========Screenshot plain_ground.png (repeat 11/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned at the far right edge of the visible platform. There are no obstacles to the right, and the objective is to reach the right side of the level, which is already achieved. No further action is needed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned at the far right edge of the visible platform. There are no obstacles to the right, and the objective is to reach the right side of the level, which is already achieved. No further action is needed."}
+==========Screenshot beside_edge.png (repeat 12/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is on a platform on the left side, with a gap to the right platform. Jumping is required to cross the gap, but no immediate action is needed since the player can simply jump to the right platform without any need to hold keys."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is on a platform on the left side, with a gap to the right platform. Jumping is required to cross the gap, but no immediate action is needed since the player can simply jump to the right platform without any need to hold keys."}
+==========Screenshot plain_ground.png (repeat 12/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue void to the right, indicating the goal is to move right. Pressing 'd' will move the player to the right towards the goal without any obstacles blocking the path."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 13/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The character is already positioned on the left platform and needs to jump to reach the right platform. However, the character is not in a position to jump yet, as it's not moving or interacting with any platform that would enable a jump. The character must first move right to reach the edge of the left platform, then jump to the right platform. Since the character is not moving, the best action is to hold 'd' to move right and then jump, but currently, no action is appropriate."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The character is already positioned on the left platform and needs to jump to reach the right platform. However, the character is not in a position to jump yet, as it's not moving or interacting with any platform that would enable a jump. The character must first move right to reach the edge of the left platform, then jump to the right platform. Since the character is not moving, the best action is to hold 'd' to move right and then jump, but currently, no action is appropriate."}
+==========Screenshot plain_ground.png (repeat 13/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on the right side of the level, which is the objective. There is no need to move further right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on the right side of the level, which is the objective. There is no need to move further right."}
+==========Screenshot beside_edge.png (repeat 14/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on the left platform and needs to move right to reach the goal on the right platform. Holding 'd' will make the character move right continuously until reaching the target area."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player character is positioned on the left platform and needs to move right to reach the goal on the right platform. Holding 'd' will make the character move right continuously until reaching the target area."}
+==========Screenshot plain_ground.png (repeat 14/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is standing on a platform, and there are no obstacles in the immediate path to the right. There is no need to jump or move left, so no action is required."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is standing on a platform, and there are no obstacles in the immediate path to the right. There is no need to jump or move left, so no action is required."}
+==========Screenshot beside_edge.png (repeat 15/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move to the right platform. Holding 'd' will move the player to the right, which is the necessary action to progress toward the goal."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move to the right platform. Holding 'd' will move the player to the right, which is the necessary action to progress toward the goal."}
+==========Screenshot plain_ground.png (repeat 15/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on a platform near the right edge of the visible area. Since the objective is to move to the right side of the level and the player is already close to it, no further action is needed."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on a platform near the right edge of the visible area. Since the objective is to move to the right side of the level and the player is already close to it, no further action is needed."}
+==========Screenshot beside_edge.png (repeat 16/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform and needs to jump to reach the right platform. Jumping is the only way to cross the gap, and no movement keys are needed at this moment to prepare for the jump."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform and needs to jump to reach the right platform. Jumping is the only way to cross the gap, and no movement keys are needed at this moment to prepare for the jump."}
+==========Screenshot plain_ground.png (repeat 16/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the left side of the level and needs to move right to reach the goal. Pressing 'd' will move the player to the right across the platform."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 17/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will allow the player to move toward the right platform efficiently."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will allow the player to move toward the right platform efficiently."}
+==========Screenshot plain_ground.png (repeat 17/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform and needs to move to the right side of the level. Pressing 'd' will move the character rightward toward the goal."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 18/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform and needs to jump to the right platform to proceed. The player must press 'space' to jump and then 'd' to move right after landing on the right platform. However, as per the current state, no action is required yet as the player is not moving or jumping."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform and needs to jump to the right platform to proceed. The player must press 'space' to jump and then 'd' to move right after landing on the right platform. However, as per the current state, no action is required yet as the player is not moving or jumping."}
+==========Screenshot plain_ground.png (repeat 18/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned at the right edge of the platform, which is the goal. No further movement is required."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned at the right edge of the platform, which is the goal. No further movement is required."}
+==========Screenshot beside_edge.png (repeat 19/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on the left platform and needs to move right to reach the goal. Holding the 'd' key will move the character to the right, which is the necessary action to progress toward the right side of the level."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player character is positioned on the left platform and needs to move right to reach the goal. Holding the 'd' key will move the character to the right, which is the necessary action to progress toward the right side of the level."}
+==========Screenshot plain_ground.png (repeat 19/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on a platform with clear space to the right. There are no immediate obstacles or hazards in the way to the right, so no action is required at this moment."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on a platform with clear space to the right. There are no immediate obstacles or hazards in the way to the right, so no action is required at this moment."}
+==========Screenshot beside_edge.png (repeat 20/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is positioned on the left platform, and there is a significant gap to the right platform. Jumping alone will not reach the other platform. To cross safely, the player needs to move right to get momentum for a jump, but since the gap is large, jumping without moving right will likely fail. Therefore, the most reasonable action is to wait and prepare for the next move."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is positioned on the left platform, and there is a significant gap to the right platform. Jumping alone will not reach the other platform. To cross safely, the player needs to move right to get momentum for a jump, but since the gap is large, jumping without moving right will likely fail. Therefore, the most reasonable action is to wait and prepare for the next move."}
+==========Screenshot plain_ground.png (repeat 20/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is already positioned on a platform at the far right edge of the visible level, which means the objective of moving to the right side of the level has been achieved. No further action is needed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is already positioned on a platform at the far right edge of the visible level, which means the objective of moving to the right side of the level has been achieved. No further action is needed."}
+==========Screenshot beside_edge.png (repeat 21/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the screen."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the screen."}
+==========Screenshot plain_ground.png (repeat 21/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the right side of the level, near the edge of the platform, which suggests the objective has been achieved or the next logical move is to move right or jump to continue the level. There are no immediate obstacles or gaps preventing movement to the right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the right side of the level, near the edge of the platform, which suggests the objective has been achieved or the next logical move is to move right or jump to continue the level. There are no immediate obstacles or gaps preventing movement to the right."}
+==========Screenshot beside_edge.png (repeat 22/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will make the character move right continuously until reaching the right platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will make the character move right continuously until reaching the right platform."}
+==========Screenshot plain_ground.png (repeat 22/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on a platform with a large blue area to the right, which appears to be empty space. There are no visible obstacles or hazards to the right, and the player can simply move right to complete the objective. There is no need to jump or hold any keys, as moving right with 'd' will achieve the goal."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on a platform with a large blue area to the right, which appears to be empty space. There are no visible obstacles or hazards to the right, and the player can simply move right to complete the objective. There is no need to jump or hold any keys, as moving right with 'd' will achieve the goal."}
+==========Screenshot beside_edge.png (repeat 23/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is positioned on the left platform, and there is a gap to the right platform. Since the player cannot jump across such a gap in a single jump, and there are no other platforms to traverse, the most reasonable action is to remain still and assess the situation. The character needs to find a way to cross the gap, but with the current game state, no immediate action can progress the goal."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is positioned on the left platform, and there is a gap to the right platform. Since the player cannot jump across such a gap in a single jump, and there are no other platforms to traverse, the most reasonable action is to remain still and assess the situation. The character needs to find a way to cross the gap, but with the current game state, no immediate action can progress the goal."}
+==========Screenshot plain_ground.png (repeat 23/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned at the edge of the platform, and there are no obstacles blocking the path to the right. Moving right would be the most direct and efficient action to reach the goal."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned at the edge of the platform, and there are no obstacles blocking the path to the right. Moving right would be the most direct and efficient action to reach the goal."}
+==========Screenshot beside_edge.png (repeat 24/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned at the edge of the left platform, and there is a gap to the right platform. Jumping is necessary to cross the gap. Since the player is stationary, no action can be taken immediately without initiating a jump to progress toward the goal."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned at the edge of the left platform, and there is a gap to the right platform. Jumping is necessary to cross the gap. Since the player is stationary, no action can be taken immediately without initiating a jump to progress toward the goal."}
+==========Screenshot plain_ground.png (repeat 24/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue void to the right. To progress toward the right side of the level, the player needs to move right. Pressing 'd' will move the character rightward along the platform, which is the most direct and efficient way to advance."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 25/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right across the platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right across the platform."}
+==========Screenshot plain_ground.png (repeat 25/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is already positioned at the rightmost edge of the visible platform, which is the goal location. There are no obstacles or gaps preventing further rightward movement. Since the objective is to reach the right side of the level, and the character is already there, no further action is needed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is already positioned at the rightmost edge of the visible platform, which is the goal location. There are no obstacles or gaps preventing further rightward movement. Since the objective is to reach the right side of the level, and the character is already there, no further action is needed."}
+==========Screenshot beside_edge.png (repeat 26/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the gap."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the gap."}
+==========Screenshot plain_ground.png (repeat 26/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is standing on a platform at the edge of the screen, with a large blue area (likely water or void) to the right. There are no visible platforms or obstacles to the right that would allow safe movement, so jumping or moving right would likely result in falling. The only safe action is to stay still and possibly jump to avoid falling."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is standing on a platform at the edge of the screen, with a large blue area (likely water or void) to the right. There are no visible platforms or obstacles to the right that would allow safe movement, so jumping or moving right would likely result in falling. The only safe action is to stay still and possibly jump to avoid falling."}
+==========Screenshot beside_edge.png (repeat 27/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will make the character walk right to reach the target platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will make the character walk right to reach the target platform."}
+==========Screenshot plain_ground.png (repeat 27/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the left side of the level. To reach the right side of the level, the most efficient action is to hold the 'd' key to move right. There are no visible obstacles blocking the right path, so moving forward is the direct way to achieve the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 28/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the player move right continuously toward the right platform."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the player move right continuously toward the right platform."}
+==========Screenshot plain_ground.png (repeat 28/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned at the rightmost edge of the platform, which is the goal. There are no obstacles blocking the way to the right, and the player can simply remain still or move slightly if needed. No further action is required to reach the objective."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned at the rightmost edge of the platform, which is the goal. There are no obstacles blocking the way to the right, and the player can simply remain still or move slightly if needed. No further action is required to reach the objective."}
+==========Screenshot beside_edge.png (repeat 29/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The character is positioned at the edge of the left platform, with a significant gap to the right platform. Jumping or moving right immediately would result in falling into the void. The character must first jump to reach the right platform, but since the right platform is not directly reachable by moving right, the character needs to plan a jump. Therefore, no immediate action is needed to prepare for the jump."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The character is positioned at the edge of the left platform, with a significant gap to the right platform. Jumping or moving right immediately would result in falling into the void. The character must first jump to reach the right platform, but since the right platform is not directly reachable by moving right, the character needs to plan a jump. Therefore, no immediate action is needed to prepare for the jump."}
+==========Screenshot plain_ground.png (repeat 29/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left side of the level and needs to move right to reach the right side. Holding 'd' will move the player to the right efficiently."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 30/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the character move to the right."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player character is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the character move to the right."}
+==========Screenshot plain_ground.png (repeat 30/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned at the far right edge of the visible platform, which is the goal. There are no obstacles to the right, and moving further right would require falling off the screen or into an unseen area, which is not the objective. Thus, no further action is needed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned at the far right edge of the visible platform, which is the goal. There are no obstacles to the right, and moving further right would require falling off the screen or into an unseen area, which is not the objective. Thus, no further action is needed."}
+==========Screenshot beside_edge.png (repeat 31/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the right side of the level. Holding 'd' will move the player to the right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the right side of the level. Holding 'd' will move the player to the right."}
+==========Screenshot plain_ground.png (repeat 31/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right without any obstacles in the way."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 32/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform, and there is a gap to the right platform. Jumping is required to cross the gap. However, since the player needs to jump and there is no indication that the player is in a position to jump immediately (like being on a ledge or having enough momentum), no_action is chosen to allow for a controlled jump. The player can jump by pressing 'space' to cross to the right platform."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform, and there is a gap to the right platform. Jumping is required to cross the gap. However, since the player needs to jump and there is no indication that the player is in a position to jump immediately (like being on a ledge or having enough momentum), no_action is chosen to allow for a controlled jump. The player can jump by pressing 'space' to cross to the right platform."}
+==========Screenshot plain_ground.png (repeat 32/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side of the level, and the goal is to move to the right side. Moving right with the 'd' key is the direct and most efficient way to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 33/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the player move right across the screen, which is the most direct and efficient way to achieve the objective."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the player move right across the screen, which is the most direct and efficient way to achieve the objective."}
+==========Screenshot plain_ground.png (repeat 33/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform and needs to move right to reach the right side of the level. Pressing 'd' will move the player rightward efficiently without any obstacles in the way."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 34/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will make the character walk right toward the goal."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will make the character walk right toward the goal."}
+==========Screenshot plain_ground.png (repeat 34/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on the right side of the level, as indicated by the position relative to the platforms. There are no obstacles blocking further right movement, so no action is needed."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on the right side of the level, as indicated by the position relative to the platforms. There are no obstacles blocking further right movement, so no action is needed."}
+==========Screenshot beside_edge.png (repeat 35/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the player move right along the platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the player move right along the platform."}
+==========Screenshot plain_ground.png (repeat 35/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned at the edge of the platform on the right side of the level, which is the objective. There are no obstacles in front, so no further movement is required."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned at the edge of the platform on the right side of the level, which is the objective. There are no obstacles in front, so no further movement is required."}
+==========Screenshot beside_edge.png (repeat 36/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will move the player to the right, which is the most direct way to reach the goal."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will move the player to the right, which is the most direct way to reach the goal."}
+==========Screenshot plain_ground.png (repeat 36/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on a platform with no obstacles in the immediate path to the right. Since the goal is to move to the right side of the level, pressing 'd' to move right is the most direct and efficient action. No action is needed here because the action will be 'd' to move right."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on a platform with no obstacles in the immediate path to the right. Since the goal is to move to the right side of the level, pressing 'd' to move right is the most direct and efficient action. No action is needed here because the action will be 'd' to move right."}
+==========Screenshot beside_edge.png (repeat 37/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the character move right along the platform."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the character move right along the platform."}
+==========Screenshot plain_ground.png (repeat 37/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is positioned on a platform and there are no obstacles in the immediate path to the right. Since the goal is to move to the right side of the level and there is clear space, the most efficient action is to press 'd' to move right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is positioned on a platform and there are no obstacles in the immediate path to the right. Since the goal is to move to the right side of the level and there is clear space, the most efficient action is to press 'd' to move right."}
+==========Screenshot beside_edge.png (repeat 38/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right, which is the most direct way to progress."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right, which is the most direct way to progress."}
+==========Screenshot plain_ground.png (repeat 38/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is currently on a platform and needs to move to the right side of the level. Pressing 'd' will move the player to the right, which is the most direct way to reach the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 39/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the character to the right towards the target platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the character to the right towards the target platform."}
+==========Screenshot plain_ground.png (repeat 39/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the right side of the level. Pressing 'd' will move the player to the right without any obstacles in the way."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 40/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned at the edge of the left platform, and there is a gap to the right platform. Jumping is necessary to cross the gap, but no keys are specified for jumping. Therefore, no action is taken until the jump is initiated."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned at the edge of the left platform, and there is a gap to the right platform. Jumping is necessary to cross the gap, but no keys are specified for jumping. Therefore, no action is taken until the jump is initiated."}
+==========Screenshot plain_ground.png (repeat 40/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on a platform and there are no obstacles blocking the path to the right. The goal is to reach the right side, which is achievable by moving right with the 'd' key."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on a platform and there are no obstacles blocking the path to the right. The goal is to reach the right side, which is achievable by moving right with the 'd' key."}
+==========Screenshot beside_edge.png (repeat 41/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The character is already positioned on the left platform, and the right platform is visible. However, there is no direct path to cross to the right platform since there is a gap between the two platforms. The character needs to jump to reach the right platform, but jumping alone is insufficient without a way to cross the gap. The immediate action is to wait for a more suitable moment or to prepare for a jump."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The character is already positioned on the left platform, and the right platform is visible. However, there is no direct path to cross to the right platform since there is a gap between the two platforms. The character needs to jump to reach the right platform, but jumping alone is insufficient without a way to cross the gap. The immediate action is to wait for a more suitable moment or to prepare for a jump."}
+==========Screenshot plain_ground.png (repeat 41/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right edge of the platform, which is the goal area. There are no obstacles or gaps to cross, so no further movement is required."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right edge of the platform, which is the goal area. There are no obstacles or gaps to cross, so no further movement is required."}
+==========Screenshot beside_edge.png (repeat 42/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will move the character to the right, allowing progression toward the goal."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will move the character to the right, allowing progression toward the goal."}
+==========Screenshot plain_ground.png (repeat 42/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on a platform with no immediate obstacles to the right. Since the goal is to reach the right side of the level, the most direct and efficient action is to press 'd' to move right. Holding 'd' will gradually progress the player toward the right side without any need for jumping or other actions at this moment."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on a platform with no immediate obstacles to the right. Since the goal is to reach the right side of the level, the most direct and efficient action is to press 'd' to move right. Holding 'd' will gradually progress the player toward the right side without any need for jumping or other actions at this moment."}
+==========Screenshot beside_edge.png (repeat 43/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the character to the right, which is the most direct action to progress."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the character to the right, which is the most direct action to progress."}
+==========Screenshot plain_ground.png (repeat 43/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side of the level, with open space to the right. To reach the right side, the player needs to move right. Holding the 'd' key will move the player to the right, towards the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 44/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform, with a significant gap to the right platform. Jumping is necessary to reach the right platform. However, since the player is currently stationary on the edge, and the immediate next step is to jump, I will not press any keys yet. The player will need to press 'space' to jump, but the action is not yet ready to be executed in the current state."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform, with a significant gap to the right platform. Jumping is necessary to reach the right platform. However, since the player is currently stationary on the edge, and the immediate next step is to jump, I will not press any keys yet. The player will need to press 'space' to jump, but the action is not yet ready to be executed in the current state."}
+==========Screenshot plain_ground.png (repeat 44/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the visible platform, and there is no immediate obstacle to the right. The goal is to move to the right side of the level, which is already achieved. No further action is needed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the visible platform, and there is no immediate obstacle to the right. The goal is to move to the right side of the level, which is already achieved. No further action is needed."}
+==========Screenshot beside_edge.png (repeat 45/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is standing on the left platform, and the right platform is directly ahead with no gap. The character can simply walk right to reach the goal, so no jumping or holding keys is needed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is standing on the left platform, and the right platform is directly ahead with no gap. The character can simply walk right to reach the goal, so no jumping or holding keys is needed."}
+==========Screenshot plain_ground.png (repeat 45/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform near the left side of the screen and needs to move to the right side of the level. Holding 'd' will move the player to the right without needing to jump, as there are no immediate obstacles or gaps ahead."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 46/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is positioned at the edge of the left platform, and there is a significant gap to the right platform. Jumping or moving right would likely result in falling into the void. The safest and most efficient action is to pause and plan the next move, possibly to jump and then move right after landing."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is positioned at the edge of the left platform, and there is a significant gap to the right platform. Jumping or moving right would likely result in falling into the void. The safest and most efficient action is to pause and plan the next move, possibly to jump and then move right after landing."}
+==========Screenshot plain_ground.png (repeat 46/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the right side of the level. Pressing 'd' will move the player to the right without any obstacles in the immediate path."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 47/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is standing on the left platform, and the right platform is visible but not yet reachable. Jumping from the current position will not allow the player to land on the right platform without falling into the void. The most reasonable action is to wait for the player to prepare to jump or move to a position from which they can reach the right platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is standing on the left platform, and the right platform is visible but not yet reachable. Jumping from the current position will not allow the player to land on the right platform without falling into the void. The most reasonable action is to wait for the player to prepare to jump or move to a position from which they can reach the right platform."}
+==========Screenshot plain_ground.png (repeat 47/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side of the screen and needs to move right to reach the goal on the right side. Holding the 'd' key will move the player to the right efficiently without any obstacles in the way."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 48/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the gap."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the gap."}
+==========Screenshot plain_ground.png (repeat 48/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side of the level. To reach the right side, the most efficient action is to move right. Pressing 'd' will move the player to the right along the platform, which is the direct path to the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 49/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the right platform. However, there is a significant gap between the two platforms. Jumping alone will not bridge this gap. To successfully cross, the player needs to build momentum by running right and then jumping to clear the gap. The immediate action should be to start moving right with the 'd' key to begin the jump sequence."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform and needs to move right to reach the right platform. However, there is a significant gap between the two platforms. Jumping alone will not bridge this gap. To successfully cross, the player needs to build momentum by running right and then jumping to clear the gap. The immediate action should be to start moving right with the 'd' key to begin the jump sequence."}
+==========Screenshot plain_ground.png (repeat 49/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the visible platform, and there is no obstacle blocking further right movement. No action is needed to progress."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the visible platform, and there is no obstacle blocking further right movement. No action is needed to progress."}
+==========Screenshot beside_edge.png (repeat 50/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will make the character move right along the platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will make the character move right along the platform."}
+==========Screenshot plain_ground.png (repeat 50/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the rightmost platform of the visible level. There are no obstacles or gaps preventing further rightward movement, so no action is needed to progress."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the rightmost platform of the visible level. There are no obstacles or gaps preventing further rightward movement, so no action is needed to progress."}
+==========Screenshot beside_edge.png (repeat 51/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the right platform. Holding 'd' will allow the player to move right and eventually reach the target area."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the right platform. Holding 'd' will allow the player to move right and eventually reach the target area."}
+==========Screenshot plain_ground.png (repeat 51/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side of the level and needs to move right to reach the goal. Holding 'd' will move the player to the right efficiently."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 52/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Pressing 'd' will move the character to the right, which is the most direct and efficient action to progress toward the right side of the level."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Pressing 'd' will move the character to the right, which is the most direct and efficient action to progress toward the right side of the level."}
+==========Screenshot plain_ground.png (repeat 52/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side of the level, with an open blue area to the right. To reach the right side, the player needs to move right. Pressing 'd' will move the player to the right, which is the most direct and efficient action to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 53/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is on the left platform and needs to reach the right platform. Jumping to the right will allow the player to clear the gap and land on the right platform. Holding 'd' to move right and 'space' to jump will enable the player to propel themselves toward the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 53/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large blue area to the right, indicating that moving right is the most direct way to progress toward the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 54/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right side of the level. Holding 'd' will move the player to the right, which is the most efficient way to progress toward the goal."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right side of the level. Holding 'd' will move the player to the right, which is the most efficient way to progress toward the goal."}
+==========Screenshot plain_ground.png (repeat 54/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the platform, which is the objective. There are no obstacles preventing further movement to the right, and no need to jump or move left."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the platform, which is the objective. There are no obstacles preventing further movement to the right, and no need to jump or move left."}
+==========Screenshot beside_edge.png (repeat 55/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is standing on the left platform, and the right platform is visible but separated by a large gap. Jumping is necessary to reach the right platform, but since the player is currently still, no action is needed until a jump is initiated."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is standing on the left platform, and the right platform is visible but separated by a large gap. Jumping is necessary to reach the right platform, but since the player is currently still, no action is needed until a jump is initiated."}
+==========Screenshot plain_ground.png (repeat 55/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the right side of the level. Holding 'd' will move the player to the right efficiently."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 56/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right, which is the direct and efficient way to progress in the level."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right, which is the direct and efficient way to progress in the level."}
+==========Screenshot plain_ground.png (repeat 56/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on a platform and positioned near the right edge of the visible level. There are no obstacles preventing forward movement, and the player can simply press 'd' to move right. No immediate action is required to progress further."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on a platform and positioned near the right edge of the visible level. There are no obstacles preventing forward movement, and the player can simply press 'd' to move right. No immediate action is required to progress further."}
+==========Screenshot beside_edge.png (repeat 57/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right along the platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right along the platform."}
+==========Screenshot plain_ground.png (repeat 57/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is standing on a platform near the edge of the visible level, and there are no immediate obstacles or hazards. Since the goal is to move to the right side of the level, and the player can move right using the 'd' key, the immediate action is to press 'd' to start moving right. However, the instruction requires a specific action type. 'no_action' is chosen because the player needs to initiate movement by pressing 'd', which is not a 'hold_press' action. Pressing 'd' is a single key press, not holding two keys."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is standing on a platform near the edge of the visible level, and there are no immediate obstacles or hazards. Since the goal is to move to the right side of the level, and the player can move right using the 'd' key, the immediate action is to press 'd' to start moving right. However, the instruction requires a specific action type. 'no_action' is chosen because the player needs to initiate movement by pressing 'd', which is not a 'hold_press' action. Pressing 'd' is a single key press, not holding two keys."}
+==========Screenshot beside_edge.png (repeat 58/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will move the character to the right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will move the character to the right."}
+==========Screenshot plain_ground.png (repeat 58/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right platform, near the edge. There are no obstacles in the way to the right, and moving right would simply lead to the edge of the level. No jump or movement is required to achieve the objective."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right platform, near the edge. There are no obstacles in the way to the right, and moving right would simply lead to the edge of the level. No jump or movement is required to achieve the objective."}
+==========Screenshot beside_edge.png (repeat 59/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform and needs to jump to reach the right platform. Since there is no immediate obstacle or gap that requires movement or jumping, the safest action is to wait for a suitable moment to jump to the right platform."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform and needs to jump to reach the right platform. Since there is no immediate obstacle or gap that requires movement or jumping, the safest action is to wait for a suitable moment to jump to the right platform."}
+==========Screenshot plain_ground.png (repeat 59/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the rightmost platform of the visible area, which is the rightmost part of the level shown. There are no obstacles blocking further right movement, and no need to jump or move left. Therefore, no action is required to progress toward the right side of the level."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the rightmost platform of the visible area, which is the rightmost part of the level shown. There are no obstacles blocking further right movement, and no need to jump or move left. Therefore, no action is required to progress toward the right side of the level."}
+==========Screenshot beside_edge.png (repeat 60/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the character move right along the platform."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the character move right along the platform."}
+==========Screenshot plain_ground.png (repeat 60/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on a platform, and there are no obstacles or hazards in the immediate vicinity. Since the objective is to move to the right side of the level, the most efficient action is to press 'd' to move right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on a platform, and there are no obstacles or hazards in the immediate vicinity. Since the objective is to move to the right side of the level, the most efficient action is to press 'd' to move right."}
+==========Screenshot beside_edge.png (repeat 61/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding the 'd' key will move the player to the right, towards the adjacent platform."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding the 'd' key will move the player to the right, towards the adjacent platform."}
+==========Screenshot plain_ground.png (repeat 61/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on the right side of the level, at the edge of the platform. There are no obstacles blocking further movement to the right, and the goal has been reached."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on the right side of the level, at the edge of the platform. There are no obstacles blocking further movement to the right, and the goal has been reached."}
+==========Screenshot beside_edge.png (repeat 62/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is on the left platform and needs to jump to the right platform. Holding 'd' to move right and 'space' to jump will allow the player to leap across the gap to the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 62/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the level, which is the objective. No further movement is required."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the level, which is the objective. No further movement is required."}
+==========Screenshot beside_edge.png (repeat 63/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is positioned on the left platform, and the right platform is visible but too far away to reach directly by walking. To progress, the player needs to jump from the left platform to the right platform. However, jumping directly from the left platform to the right platform is not possible without landing on an intermediate surface, which isn't present. The most reasonable action is to do nothing and wait for a more suitable moment or to look for a path forward."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is positioned on the left platform, and the right platform is visible but too far away to reach directly by walking. To progress, the player needs to jump from the left platform to the right platform. However, jumping directly from the left platform to the right platform is not possible without landing on an intermediate surface, which isn't present. The most reasonable action is to do nothing and wait for a more suitable moment or to look for a path forward."}
+==========Screenshot plain_ground.png (repeat 63/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side of the level, and the goal is to reach the right side. Moving right with the 'd' key is the most direct and efficient action to progress toward the objective."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 64/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned at the edge of a platform, with no immediate way to jump or move to the right platform without falling into the void. There is no feasible action that can be taken to progress without falling."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned at the edge of a platform, with no immediate way to jump or move to the right platform without falling into the void. There is no feasible action that can be taken to progress without falling."}
+==========Screenshot plain_ground.png (repeat 64/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the rightmost platform, which is the goal. There are no obstacles or gaps to cross, so no further movement is required."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the rightmost platform, which is the goal. There are no obstacles or gaps to cross, so no further movement is required."}
+==========Screenshot beside_edge.png (repeat 65/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. However, there is a significant gap between the current platform and the right platform. The player needs to jump to reach the right platform. Since the player is currently standing still and can jump, the best immediate action is to press the space key to initiate a jump, aiming to land on the right platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. However, there is a significant gap between the current platform and the right platform. The player needs to jump to reach the right platform. Since the player is currently standing still and can jump, the best immediate action is to press the space key to initiate a jump, aiming to land on the right platform."}
+==========Screenshot plain_ground.png (repeat 65/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the rightmost platform of the visible area. There are no obstacles or gaps to the right that would prevent reaching the end of the level. Continuing to move right is not necessary for progression."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the rightmost platform of the visible area. There are no obstacles or gaps to the right that would prevent reaching the end of the level. Continuing to move right is not necessary for progression."}
+==========Screenshot beside_edge.png (repeat 66/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is standing on the left platform, and the right platform is visible but separated by a gap. Jumping is necessary to reach the right platform, but the current screenshot shows no action has been taken yet. The player must first jump to initiate movement toward the right side of the level."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is standing on the left platform, and the right platform is visible but separated by a gap. Jumping is necessary to reach the right platform, but the current screenshot shows no action has been taken yet. The player must first jump to initiate movement toward the right side of the level."}
+==========Screenshot plain_ground.png (repeat 66/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already standing on a platform with clear space to the right, and no obstacles are visible. Moving right is the only logical next step, but since the action must be one of the specified types, 'no_action' is chosen to avoid any unintended movement. The player can then press 'd' to move right."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already standing on a platform with clear space to the right, and no obstacles are visible. Moving right is the only logical next step, but since the action must be one of the specified types, 'no_action' is chosen to avoid any unintended movement. The player can then press 'd' to move right."}
+==========Screenshot beside_edge.png (repeat 67/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will allow the player to move right towards the goal."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right platform. Holding 'd' will allow the player to move right towards the goal."}
+==========Screenshot plain_ground.png (repeat 67/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the visible level, and there are no obstacles to the right. No further action is needed to reach the right side of the level."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the visible level, and there are no obstacles to the right. No further action is needed to reach the right side of the level."}
+==========Screenshot beside_edge.png (repeat 68/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform and needs to jump to reach the right platform. Pressing 'd' to move right and 'space' to jump will allow the character to leap across the gap."
+}
+```
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 68/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with ample space to the right, and there are no immediate obstacles. Moving right with 'd' will progress toward the goal efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 69/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform, with a significant gap to the right platform. Jumping alone won't bridge the gap, and moving right with 'd' would not help as the player is stationary. The most reasonable action is to do nothing and plan the next move, such as jumping and holding right to move and jump simultaneously."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform, with a significant gap to the right platform. Jumping alone won't bridge the gap, and moving right with 'd' would not help as the player is stationary. The most reasonable action is to do nothing and plan the next move, such as jumping and holding right to move and jump simultaneously."}
+==========Screenshot plain_ground.png (repeat 69/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move to the right to reach the goal. Pressing 'd' will move the player to the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 70/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is positioned on the left platform and needs to jump to reach the right platform. Since there is a significant gap, jumping alone is insufficient. The player should press the 'd' key to start moving right and press 'space' to jump at the right moment to clear the gap and land on the right platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is positioned on the left platform and needs to jump to reach the right platform. Since there is a significant gap, jumping alone is insufficient. The player should press the 'd' key to start moving right and press 'space' to jump at the right moment to clear the gap and land on the right platform."}
+==========Screenshot plain_ground.png (repeat 70/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on the right side of the level, and there are no obstacles preventing movement further right. No action is needed to complete the objective."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on the right side of the level, and there are no obstacles preventing movement further right. No action is needed to complete the objective."}
+==========Screenshot beside_edge.png (repeat 71/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is standing on the left platform, and the right platform is a significant distance away. Jumping is not sufficient to reach the right platform without a clear path or intermediary platform. The most reasonable action is to remain still and observe, as attempting to move right immediately would not be effective without a way to cross the gap."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is standing on the left platform, and the right platform is a significant distance away. Jumping is not sufficient to reach the right platform without a clear path or intermediary platform. The most reasonable action is to remain still and observe, as attempting to move right immediately would not be effective without a way to cross the gap."}
+==========Screenshot plain_ground.png (repeat 71/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the level, which is the objective. There are no obstacles blocking the way forward, and the player can simply stand still or move right if needed. Since the goal is achieved, no action is required."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the level, which is the objective. There are no obstacles blocking the way forward, and the player can simply stand still or move right if needed. Since the goal is achieved, no action is required."}
+==========Screenshot beside_edge.png (repeat 72/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player toward the right platform."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player toward the right platform."}
+==========Screenshot plain_ground.png (repeat 72/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the rightmost platform of the visible area, and there are no obstacles or gaps preventing further rightward movement. Since the objective is to reach the right side of the level, no additional action is needed at this moment."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the rightmost platform of the visible area, and there are no obstacles or gaps preventing further rightward movement. Since the objective is to reach the right side of the level, no additional action is needed at this moment."}
+==========Screenshot beside_edge.png (repeat 73/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the player move right across the screen."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the player move right across the screen."}
+==========Screenshot plain_ground.png (repeat 73/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the platform, which is the goal. No further movement is needed."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the platform, which is the goal. No further movement is needed."}
+==========Screenshot beside_edge.png (repeat 74/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform, and there is no immediate obstacle or gap to cross. The right platform is visible, but no jump or movement is required to reach it yet, as the player can simply move right to get there."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform, and there is no immediate obstacle or gap to cross. The right platform is visible, but no jump or movement is required to reach it yet, as the player can simply move right to get there."}
+==========Screenshot plain_ground.png (repeat 74/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform and needs to move right to reach the right side of the level. Holding 'd' will move the player to the right efficiently."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 75/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the character move to the right, which is the most direct way to progress."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will make the character move to the right, which is the most direct way to progress."}
+==========Screenshot plain_ground.png (repeat 75/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is standing on a platform with a large blue area to the right, which appears to be an open space. There are no obstacles or hazards in the immediate path to the right, so no action is needed to proceed."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is standing on a platform with a large blue area to the right, which appears to be an open space. There are no obstacles or hazards in the immediate path to the right, so no action is needed to proceed."}
+==========Screenshot beside_edge.png (repeat 76/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is positioned on the left platform, and there is a gap to the right platform. Jumping is necessary to cross the gap, but since the player is not yet in a jumping state and no key combination is specified, the safest action is to wait for the jump input to be executed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is positioned on the left platform, and there is a gap to the right platform. Jumping is necessary to cross the gap, but since the player is not yet in a jumping state and no key combination is specified, the safest action is to wait for the jump input to be executed."}
+==========Screenshot plain_ground.png (repeat 76/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the level, which is the objective. There are no obstacles preventing further movement to the right, so no action is needed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the level, which is the objective. There are no obstacles preventing further movement to the right, so no action is needed."}
+==========Screenshot beside_edge.png (repeat 77/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right platform. To move forward, the 'd' key must be pressed to move right. There are no obstacles in the immediate path, so holding 'd' will move the character toward the goal efficiently."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player character is positioned on the left platform, and the goal is to reach the right platform. To move forward, the 'd' key must be pressed to move right. There are no obstacles in the immediate path, so holding 'd' will move the character toward the goal efficiently."}
+==========Screenshot plain_ground.png (repeat 77/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side of the screen, and the objective is to move to the right side of the level. Pressing 'd' will move the player to the right, which is the most direct and efficient action to achieve the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 78/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned on the left platform and needs to reach the right platform. Jumping and moving right simultaneously will allow the player to clear the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 78/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the platform, which appears to be the end of the current level. There are no obstacles or hazards ahead, so no further movement is required to achieve the objective."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the platform, which appears to be the end of the current level. There are no obstacles or hazards ahead, so no further movement is required to achieve the objective."}
+==========Screenshot beside_edge.png (repeat 79/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the player move right along the platform. Since there is no immediate obstacle or need to jump, simply holding 'd' is the most efficient action to progress."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the player move right along the platform. Since there is no immediate obstacle or need to jump, simply holding 'd' is the most efficient action to progress."}
+==========Screenshot plain_ground.png (repeat 79/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on the rightmost platform and has no obstacles blocking forward movement. Moving right would likely cause the player to fall off the screen since there is no platform to the right. The current position is optimal for the goal of reaching the right side of the level."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on the rightmost platform and has no obstacles blocking forward movement. Moving right would likely cause the player to fall off the screen since there is no platform to the right. The current position is optimal for the goal of reaching the right side of the level."}
+==========Screenshot beside_edge.png (repeat 80/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding the 'd' key will move the player to the right, which is the most direct way to reach the right side of the level."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding the 'd' key will move the player to the right, which is the most direct way to reach the right side of the level."}
+==========Screenshot plain_ground.png (repeat 80/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left side of the platform, and to reach the right side of the level, the most efficient action is to hold the 'd' key to move right."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 81/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The character is positioned on the left platform, and to reach the right platform, a jump is required to cross the gap. However, the screenshot does not show any immediate danger or obstacles that would necessitate a specific action, and no jump is currently in progress. The most efficient action is to prepare for the jump by holding 'd' and 'space' together to jump right."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The character is positioned on the left platform, and to reach the right platform, a jump is required to cross the gap. However, the screenshot does not show any immediate danger or obstacles that would necessitate a specific action, and no jump is currently in progress. The most efficient action is to prepare for the jump by holding 'd' and 'space' together to jump right."}
+==========Screenshot plain_ground.png (repeat 81/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with no obstacles immediately ahead, and the goal is to move to the right side of the level. Pressing 'd' will move the player to the right efficiently."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 82/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right."}
+==========Screenshot plain_ground.png (repeat 82/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the visible platform, and there are no obstacles blocking further right movement. The game state suggests the player has reached the objective."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the visible platform, and there are no obstacles blocking further right movement. The game state suggests the player has reached the objective."}
+==========Screenshot beside_edge.png (repeat 83/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will move the player toward the right platform."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will move the player toward the right platform."}
+==========Screenshot plain_ground.png (repeat 83/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on the right side of the level and has reached the goal."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on the right side of the level and has reached the goal."}
+==========Screenshot beside_edge.png (repeat 84/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right, which is the most direct way to progress towards the right side of the level."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right, which is the most direct way to progress towards the right side of the level."}
+==========Screenshot plain_ground.png (repeat 84/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the right side of the level. Holding 'd' will move the player to the right efficiently without unnecessary actions."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 85/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned on the left platform and needs to jump to the right platform to progress. Holding 'd' to move right and 'space' to jump will allow the player to launch into the air and land on the right platform."
+}
+```
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 85/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on a platform near the right edge of the visible level, and there are no obstacles in the immediate path to the right. The goal is to reach the right side of the level, which appears to be achievable by simply moving right. Since no jump or special maneuver is necessary, no_action is the most efficient choice."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on a platform near the right edge of the visible level, and there are no obstacles in the immediate path to the right. The goal is to reach the right side of the level, which appears to be achievable by simply moving right. Since no jump or special maneuver is necessary, no_action is the most efficient choice."}
+==========Screenshot beside_edge.png (repeat 86/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal on the right platform. Holding the 'd' key will move the player to the right."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal on the right platform. Holding the 'd' key will move the player to the right."}
+==========Screenshot plain_ground.png (repeat 86/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player character is standing on a platform at the rightmost edge of the visible level. Since the objective is to move to the right side of the level and there is no visible space to the right, there is no further movement possible in the current game state. Therefore, no action is needed."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player character is standing on a platform at the rightmost edge of the visible level. Since the objective is to move to the right side of the level and there is no visible space to the right, there is no further movement possible in the current game state. Therefore, no action is needed."}
+==========Screenshot beside_edge.png (repeat 87/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal on the right side. Holding 'd' will move the player to the right across the gap."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal on the right side. Holding 'd' will move the player to the right across the gap."}
+==========Screenshot plain_ground.png (repeat 87/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already standing on the rightmost platform, which is the goal position. No further movement is required to reach the right side of the level."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already standing on the rightmost platform, which is the goal position. No further movement is required to reach the right side of the level."}
+==========Screenshot beside_edge.png (repeat 88/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player towards the right side of the level."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the player towards the right side of the level."}
+==========Screenshot plain_ground.png (repeat 88/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the level, which is the objective. There are no obstacles to jump over or platforms to traverse to reach the goal, so no further action is required."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the level, which is the objective. There are no obstacles to jump over or platforms to traverse to reach the goal, so no further action is required."}
+==========Screenshot beside_edge.png (repeat 89/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is standing on the left platform and needs to reach the right platform. Jumping while moving right will allow the player to clear the gap and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 89/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already on the right side of the level, and there are no obstacles preventing movement to the right. There is no need to take any action."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already on the right side of the level, and there are no obstacles preventing movement to the right. There is no need to take any action."}
+==========Screenshot beside_edge.png (repeat 90/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right side. Pressing 'd' will move the character to the right, which is the most direct way to achieve the objective."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right side. Pressing 'd' will move the character to the right, which is the most direct way to achieve the objective."}
+==========Screenshot plain_ground.png (repeat 90/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned on the right side of the visible level, as indicated by the game state. There are no obstacles to the right, and moving further right is not necessary to achieve the objective."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned on the right side of the visible level, as indicated by the game state. There are no obstacles to the right, and moving further right is not necessary to achieve the objective."}
+==========Screenshot beside_edge.png (repeat 91/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal on the right platform. Pressing 'd' will move the character to the right, which is the most direct way to progress."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal on the right platform. Pressing 'd' will move the character to the right, which is the most direct way to progress."}
+==========Screenshot plain_ground.png (repeat 91/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side, and the goal is to move to the right side of the level. Pressing 'd' will move the player to the right, which is the most direct way to achieve the objective."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 92/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the character to the right, which is the most direct and efficient way to progress in this scenario."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Holding 'd' will move the character to the right, which is the most direct and efficient way to progress in this scenario."}
+==========Screenshot plain_ground.png (repeat 92/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the right edge of the platform, which is the rightmost point of the current level, so no further movement to the right is possible without jumping or falling."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the right edge of the platform, which is the rightmost point of the current level, so no further movement to the right is possible without jumping or falling."}
+==========Screenshot beside_edge.png (repeat 93/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the character move right across the platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal. Pressing 'd' will make the character move right across the platform."}
+==========Screenshot plain_ground.png (repeat 93/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a ledge with a large blue void to the right. To progress, the player needs to move right. Holding 'd' will make the character walk to the right, which is the most direct and efficient way to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 94/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the platform."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Holding 'd' will move the player to the right across the platform."}
+==========Screenshot plain_ground.png (repeat 94/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the right side of the level. Pressing 'd' will move the player to the right efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 95/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned at the edge of the left platform, and there is no immediate obstacle or gap to jump across. The right platform is visible but not accessible without jumping, which is not currently possible as the player is not airborne. The most reasonable action is to pause and assess the situation."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned at the edge of the left platform, and there is no immediate obstacle or gap to jump across. The right platform is visible but not accessible without jumping, which is not currently possible as the player is not airborne. The most reasonable action is to pause and assess the situation."}
+==========Screenshot plain_ground.png (repeat 95/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on the left side of the level and needs to move to the right. Holding 'd' will make the character move rightward towards the goal without any obstacles in the way."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 96/100)==========
+```json
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is positioned on the left platform, and there is a gap to the right platform. Since there is no visual indication of any jump or movement capability, and the player needs to move right, the current state suggests that jumping or moving right might not be possible without additional information or controls. Thus, no action is reasonable at this moment."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is positioned on the left platform, and there is a gap to the right platform. Since there is no visual indication of any jump or movement capability, and the player needs to move right, the current state suggests that jumping or moving right might not be possible without additional information or controls. Thus, no action is reasonable at this moment."}
+==========Screenshot plain_ground.png (repeat 96/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a clear path to the right. Moving right with 'd' is the most direct and efficient action to reach the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 97/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move to the right platform to progress. Pressing 'd' will move the player to the right, allowing them to reach the goal."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move to the right platform to progress. Pressing 'd' will move the player to the right, allowing them to reach the goal."}
+==========Screenshot plain_ground.png (repeat 97/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with open space to the right, and there are no visible obstacles blocking the rightward movement. Holding 'd' will move the player toward the right side of the level, which is the objective."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 98/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player to the right."}
+==========Screenshot plain_ground.png (repeat 98/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move to the right side of the level. Pressing 'd' will move the player rightward, which is the most direct way to achieve the objective."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 99/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on the left platform and needs to move right to reach the goal on the right platform. Pressing 'd' will move the player to the right, which is the necessary action to progress."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is positioned on the left platform and needs to move right to reach the goal on the right platform. Pressing 'd' will move the player to the right, which is the necessary action to progress."}
+==========Screenshot plain_ground.png (repeat 99/100)==========
+{
+    "action": "no_action",
+    "keys": [],
+    "reason": "The player is already positioned at the far right edge of the visible platform. There are no obstacles or gaps to the right, and the objective is to reach the right side of the level, which is already achieved."
+}
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d"]}
+parsed:   {"action": "no_action", "keys": [], "reason": "The player is already positioned at the far right edge of the visible platform. There are no obstacles or gaps to the right, and the objective is to reach the right side of the level, which is already achieved."}
+==========Screenshot beside_edge.png (repeat 100/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player toward the right platform."
+}
+```
+GRADE: incorrect
+expected: {"action": "hold_press", "keys": ["d", "space"]}
+parsed:   {"action": "hold_press", "keys": ["d"], "reason": "The player is on the left platform and needs to move right to reach the goal. Pressing 'd' will move the player toward the right platform."}
+==========Screenshot plain_ground.png (repeat 100/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform on the left side, and the goal is to move to the right side of the level. Pressing 'd' will move the player to the right, which is the direct and efficient way to progress toward the objective."
+}
+```
+GRADE: correct

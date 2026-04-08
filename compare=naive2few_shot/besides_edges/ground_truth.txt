@@ -1,0 +1,10 @@
+{
+  "a.png": {
+    "action": "hold_press",
+    "keys": ["d", "space"]
+  },
+  "b.png": {
+    "action": "hold_press",
+    "keys": ["d", "space"]
+  }
+}

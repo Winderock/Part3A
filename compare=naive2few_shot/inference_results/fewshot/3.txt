@@ -1,0 +1,1423 @@
+Per-image accuracy (this run):
+  beside_edge.png: 100/100 correct (100.0%)
+  plain_ground.png: 100/100 correct (100.0%)
+
+Run accuracy (all graded): 200/200 correct (100.0%)
+==========Screenshot beside_edge.png (repeat 1/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a significant gap to the right platform. To progress, the character must jump to the right platform. Holding 'd' while pressing 'space' will allow the character to jump and move right simultaneously, enabling successful crossing of the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 1/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with an open blue space to the right, indicating that moving right is the intended progression. Pressing 'd' will move the character toward the goal without any obstacles in the way."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 2/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right side. There is a significant gap that must be jumped over. To efficiently progress, the player should jump to the right by holding 'd' to move right while pressing 'space' to jump, which will propel the character across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 2/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform, and the objective is to move to the right side of the level. There are no visible obstacles blocking the path to the right, so pressing 'd' will move the character forward efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 3/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform, facing a gap to the right platform. To cross the gap efficiently, I need to jump right. Holding 'd' will move the character forward while pressing 'space' will initiate the jump, allowing me to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 3/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, with an open blue space to the right, indicating the goal is to move right. Pressing 'd' will move the character to the right, progressing toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 4/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned at the edge of a gap, and to progress to the right side of the level, they need to jump and move right. Holding 'd' for movement and pressing 'space' to jump will allow the character to cross the gap."
+}
+```
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 4/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge, with open space to the right that likely leads to the goal. To progress, I should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 5/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform, with a gap to the right platform. To cross the gap efficiently, I should jump to the right platform by holding 'd' to move right while pressing 'space' to jump."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 5/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a clear path to the right, with no visible obstacles or gaps in the immediate vicinity. To progress towards the right side of the level, the most straightforward and efficient action is to hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 6/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned at the edge of a gap and needs to jump to the right platform to progress. Holding 'd' to move right while pressing 'space' to jump will allow the player to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 6/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the edge of the level, with the goal being to reach the right side. There are no visible obstacles blocking the path to the right, so moving right is the most direct and efficient action to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 7/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned at the edge of a gap, and to progress to the right side of the level, they must jump to reach the next platform. Pressing 'd' to move right while simultaneously pressing 'space' to jump will allow the character to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 7/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform and needs to move right to reach the right side of the level. Pressing 'd' will move the character to the right, which is the most direct way to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 8/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap between two platforms. To cross the gap and move to the right side of the level, I need to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow the character to propel forward and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 8/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large blue area to the right, indicating there is space to move right. Since the goal is to reach the right side of the level, pressing 'd' will move the player forward efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 9/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap and needs to jump to the right platform to progress. Holding 'd' to move right while pressing 'space' to jump will allow the character to clear the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 9/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the edge of a gap, and the objective is to move to the right side of the level. Holding the 'd' key will move the character rightward along the platform, which is the most direct and efficient way to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 10/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap and needs to jump to the right platform. To cross the gap efficiently, I should hold the 'd' key to move right while pressing 'space' to jump, allowing the character to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 10/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, with an open blue area to the right, suggesting that moving right is the intended path forward. There are no visible obstacles blocking the way to the right, so holding the 'd' key will allow the player to move rightward efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 11/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right platform. There is a gap that needs to be jumped over. To cross the gap efficiently, I should hold the 'd' key to move right while pressing 'space' to jump, allowing for a controlled jump to the target platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 11/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the visible level. Moving right is the only logical way to progress toward the right side of the level. Holding the 'd' key will move the character rightward without any obstacles in the way."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 12/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is on the left platform and needs to cross the gap to reach the right platform. Jumping right will allow the character to land on the target platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 12/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the goal. Holding the 'd' key will allow continuous movement to the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 13/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap, and to progress to the right side of the level, they must jump over the gap. Holding 'd' to move right while pressing 'space' to jump will allow the character to launch across the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 13/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the visible screen. There are no visible obstacles immediately to the right, so moving right is a logical and safe action to progress toward the goal of reaching the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 14/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap between two platforms. To progress to the right side of the level, the character must jump over the gap. Holding the 'd' key to move right while pressing 'space' to jump will allow the character to perform a rightward jump, clearing the gap and advancing toward the goal."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 14/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, with an open blue area (likely water or void) to the right. To progress toward the right side of the level, the player needs to move right. Pressing 'd' will move the character rightward, and holding it will allow continuous movement toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 15/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is on the left platform, and the goal is to reach the right side. There is a gap that needs to be jumped over. Pressing 'd' to move right while holding 'space' to jump will allow the character to leap across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 15/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the edge of the visible level. To progress to the right side of the level, the character must move right. Pressing 'd' will move the character to the right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 16/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a gap to the right platform. To cross the gap efficiently, I should jump to the right by holding the 'd' key to move right while pressing 'space' to jump, initiating a rightward jump."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 16/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of a gap, but there is no visible obstacle directly ahead that requires jumping. The right side of the level is open, and moving right with the 'd' key will allow progression toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 17/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is on the left platform and needs to cross the gap to reach the right platform. Jumping right (hold 'd' and press 'space') is the necessary action to progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 17/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform and needs to move right to reach the goal. Pressing 'd' will move the character to the right without any obstacles in the way."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 18/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the goal is to reach the right side. Jumping right (holding 'd' while pressing 'space') is the only way to cross the gap and progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 18/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the left side of the level. To reach the right side of the level, the character needs to move right. Pressing the 'd' key will move the character to the right, which is the most direct action to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 19/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap, and to progress to the right platform, I must jump. Holding 'd' to move right while pressing 'space' to jump will allow me to cross the gap effectively."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 19/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with clear space to the right, and there are no visible obstacles. To progress toward the right side of the level, the most efficient action is to hold the 'd' key to move right continuously."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 20/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the objective is to reach the right side of the level. To cross the gap efficiently, the player needs to jump forward by holding 'd' to move right while pressing 'space' to initiate a jump."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 20/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the left side of the level, and the goal is to reach the right side. There are no obstacles blocking the path to the right, so holding the 'd' key will move the character forward efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 21/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned at the edge of a gap and needs to jump to the right platform to progress. Holding 'd' will move the player right while pressing 'space' will initiate a jump, allowing them to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 21/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with an open blue space to the right, indicating the goal is to move right. Holding 'd' will move the character toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 22/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the objective is to move to the right side of the level. To cross the gap, the character must jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will enable the character to leap across the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 22/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the left side of the level and needs to move to the right side. There are no visible obstacles or gaps in the immediate path to the right, so holding the 'd' key will allow continuous movement to the right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 23/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right side. There is a significant gap between the platforms, so the character must jump to progress. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 23/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with no immediate obstacles to the right, and the objective is to move to the right side of the level. Pressing 'd' will move the player forward toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 24/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a significant gap to the right platform. To progress, the character needs to jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 24/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform with a large gap to the right, and there is no obstacle blocking forward movement. To progress toward the right side of the level, the player should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 25/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap, and to progress to the right side, I need to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow me to cross the gap and reach the destination."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 25/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to progress. Pressing 'd' will move the character to the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 26/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and to progress to the right side of the level, the character needs to jump across the gap. Holding 'd' to move right while pressing 'space' to jump will allow the character to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 26/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform at the left side of the screen. To reach the right side of the level, the most direct and efficient action is to move right using the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 27/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a significant gap to the right platform. To cross the gap efficiently and reach the right side, the character needs to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow the character to propel forward and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 27/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with no immediate obstacles, and the goal is to move to the right side of the level. Pressing 'd' will move the character rightwards, which is the most efficient action to achieve the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 28/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform, and the goal is to reach the right platform. The gap between the platforms requires a jump to cross. Holding 'd' to move right while pressing 'space' to jump will allow the character to jump over the gap and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 28/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with an open blue space to the right, indicating that moving right is the logical next step to progress toward the goal. Holding 'd' will move the character forward without requiring a jump, as there are no visible obstacles or gaps immediately ahead."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 29/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right platform. There is a visible gap that must be crossed. To efficiently move to the right, the player should jump forward by holding the 'd' key to move right while pressing 'space' to jump, allowing for a forward jump."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 29/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform, and the goal is to move to the right side of the level. There are no visible obstacles in the immediate right direction, so holding the 'd' key will move the character forward efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 30/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap between two platforms. To reach the right side of the level, the character needs to jump across the gap. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap over the gap and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 30/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, and the goal is to move to the right side. There are no immediate obstacles or gaps that require jumping over, so pressing the 'd' key will allow the character to move right and progress toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 31/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the goal is to reach the right side. Jumping to the right is the necessary action to cross the gap and progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 31/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the screen, and the goal is to move to the right side of the level. There are no visible obstacles or gaps directly ahead, so moving right by holding the 'd' key is the most efficient action to progress."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 32/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and to progress to the right platform, the character needs to jump and move right. Holding 'd' for movement right while pressing 'space' for jumping will allow the character to leap across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 32/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform and needs to move right to reach the goal. Holding the 'd' key will move the character to the right side of the level efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 33/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned on the left platform and needs to cross the gap to reach the right platform. To do this efficiently, the player should jump to the right by holding 'd' to move right while pressing 'space' to jump."
+}
+```
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 33/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with an open blue area to the right, indicating the goal is to move right. Pressing 'd' will move the player to the right side of the level."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 34/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform, and the goal is to reach the right side. There is a visible gap that needs to be jumped over. To cross the gap efficiently, I should press 'd' to move right while pressing 'space' to jump, initiating a jump towards the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 34/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue area to the right, which likely represents the goal area. There are no visible obstacles in the path ahead, so moving right with the 'd' key is the most direct and efficient action to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 35/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the objective is to move to the right side. Jumping with 'd' (move right) and 'space' (jump) will allow the character to clear the gap and progress to the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 35/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform and needs to move right to reach the goal. Holding 'd' will make the character move continuously to the right without needing to jump."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 36/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is at the edge of a platform with a gap to the right. To cross the gap and progress, the player must jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the player to jump across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 36/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform and needs to move right to reach the goal. There are no immediate obstacles in the path to the right, so holding the 'd' key will allow continuous movement toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 37/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is standing on the left platform, and the goal is to reach the right side. There is a gap between the two platforms. To cross the gap efficiently, I should hold the 'd' key to move right while pressing 'space' to jump, initiating a jump toward the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 37/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, with the goal being to reach the right side. There are no immediate obstacles in the path, so moving right with the 'd' key is the most direct and efficient way to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 38/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform, facing a gap to the right platform. To cross the gap, I need to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow me to propel into the air and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 38/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with open space to the right, and there are no immediate obstacles. Moving right is the most direct way to progress toward the goal of reaching the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 39/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is standing on the left platform, and the goal is to reach the right side. There is a visible gap that needs to be crossed. Jumping with the right direction key will allow the character to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 39/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the goal. Pressing 'd' will move the character to the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 40/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is standing on the left platform, facing a significant gap to the right platform. To reach the goal, the character needs to jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the character to move right and jump over the gap, which is the most direct and efficient way to progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 40/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level, with the right side being the goal. There are no immediate obstacles to the right, so moving right with the 'd' key is the most direct and efficient action to reach the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 41/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is standing at the edge of a gap and needs to jump to reach the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the player to leap across the gap and progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 41/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large gap to the right. Moving right is necessary to progress, and holding 'd' will allow continuous movement toward the goal without jumping, since there is no immediate need to jump over obstacles."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 42/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and to progress to the right side of the level, they need to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow the character to launch across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 42/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform near the left side and needs to move right to reach the right side of the level. Pressing 'd' will move the character forward without jumping, which is the most direct and efficient way to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 43/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is at the edge of a platform, and the goal is to reach the right side. To cross the gap, the player must jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the player to land on the target platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 43/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the screen. To progress toward the right side of the level, the character needs to move right. Holding the 'd' key will move the character forward along the platform."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 44/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right platform. There is a gap that must be crossed, so jumping to the right is necessary. Holding 'd' to move right while pressing 'space' to jump will allow the character to propel across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 44/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with a large blue area to the right, indicating an open space to progress. Pressing 'd' will move the player rightwards to explore the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 45/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the goal is to reach the right side. Jumping right (hold 'd' and press 'space') is the most direct way to cross the gap and progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 45/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is standing on a platform with a large blue area (likely water or void) to the right, which suggests the goal is to move right. Pressing 'd' will move the character toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 46/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap, and to progress to the right side of the level, I need to jump over the gap. Holding 'd' to move right while pressing 'space' to jump will allow me to clear the gap and land on the platform on the right."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 46/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with a large empty blue area to the right, which likely represents the path forward. Moving right with the 'd' key is the logical next step to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 47/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap, and to reach the right platform, I must jump. Holding 'd' to move right while pressing 'space' to jump will allow me to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 47/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the visible area, with no immediate obstacles or gaps ahead. Moving right with the 'd' key will allow progression toward the right side of the level, which is the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 48/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap, and to reach the right platform, they need to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow them to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 48/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move to the right side of the level. Pressing 'd' will move the player forward towards the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 49/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right platform. The gap between the platforms requires jumping, so holding 'd' to move right while pressing 'space' to jump will allow the character to cross the gap and proceed to the right side."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 49/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with no immediate obstacles to the right, and the objective is to move to the right side of the level. Pressing 'd' will allow the character to move right and progress."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 50/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap between two platforms. To progress to the right side of the level, the character must jump to land on the other platform. Holding 'd' to move right while pressing 'space' to jump will allow the character to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 50/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with open space to the right, and there are no visible obstacles. Moving right is the most efficient way to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 51/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is standing on the left platform, and the goal is to reach the right platform. There is a gap that needs to be jumped over. To do this efficiently, I should hold the 'd' key to move right while pressing 'space' to jump, allowing the character to cross the gap and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 51/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the left side of the level, and the goal is to reach the right side. There are no immediate obstacles blocking forward movement, so pressing 'd' to move right is the most direct and efficient action to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 52/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform, with a significant gap to the right platform. To progress, the character must jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the character to initiate a jump towards the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 52/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform at the left side of the level and needs to move right to progress. There are no immediate obstacles or gaps that require jumping, so pressing 'd' will move the player toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 53/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right platform. There is a gap between the two platforms, so jumping right is required to cross it. Holding 'd' to move right while pressing 'space' will allow the character to jump and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 53/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform with a large gap to the right, which needs to be crossed. Moving right with the 'd' key will allow progression toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 54/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is on the left platform and needs to cross the gap to reach the right platform. Jumping right (combining 'd' and 'space') is the only way to progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 54/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the goal. Holding the 'd' key will allow continuous movement to the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 55/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned at the edge of a gap between two platforms. To progress to the right side of the level, the player needs to jump over the gap. Holding 'd' to move right while pressing 'space' to jump will allow the player to clear the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 55/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue area (likely water or sky) to the right, indicating the goal is to move right. There are no visible obstacles blocking the rightward path, so pressing 'd' will move the character forward toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 56/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the goal is to reach the right side. To cross the gap efficiently, the player should jump forward by holding 'd' to move right while pressing 'space' to jump."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 56/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform and there is no immediate obstacle blocking the path to the right. To progress toward the right side of the level, holding the 'd' key will move the character forward efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 57/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is at the edge of a gap and needs to jump to the right platform to progress. Holding 'd' to move right while pressing 'space' to jump will allow the character to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 57/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue area to the right, which likely represents an open space or next level. To progress toward the right side of the level, the most efficient action is to press and hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 58/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a large gap to the right platform. To cross the gap and progress, the player needs to jump toward the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap across the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 58/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform and needs to move right to reach the right side of the level. Holding the 'd' key will allow continuous movement to the right without needing to jump, which is the most straightforward and efficient action to progress."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 59/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and to progress to the right side of the level, the player needs to jump and move right. Holding 'd' to move right while pressing 'space' to jump will allow the character to clear the gap and land on the platform to the right."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 59/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the edge of the level, with the goal being to move to the right side. Holding the 'd' key will move the player forward along the platform toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 60/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a significant gap to the right platform. To cross this gap, the character must jump. Holding 'd' to move right while pressing 'space' to jump will allow the character to propel forward and land on the right platform, which is the objective."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 60/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform at the left side of the level. To reach the right side, the player needs to move right. Holding the 'd' key will allow continuous movement to the right, which is the most efficient action to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 61/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap, and to reach the right platform, I need to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow me to cross the gap and progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 61/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with clear space to the right, so holding 'd' will move the player forward toward the goal without any obstacles in the way."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 62/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, facing a gap to the right platform. To cross the gap efficiently, I should jump to the right platform by holding the 'd' key to move right while pressing 'space' to jump."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 62/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform with a large open space to the right, and there are no visible obstacles. Moving right with the 'd' key will progress toward the goal."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 63/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a significant gap to the right platform. To reach the goal, the character needs to jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the character to propel towards and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 63/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is standing on a platform with clear space to the right. Moving right with the 'd' key is the most direct way to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 64/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap between two platforms. To progress to the right side of the level, the character needs to jump over the gap. Holding 'd' to move right while pressing 'space' to jump will allow the character to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 64/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with open space to the right, indicating that moving right is the logical next step to progress toward the goal. Holding 'd' will move the character to the right without any immediate obstacles to avoid."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 65/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap, and to progress to the right platform, I need to jump over the gap. Holding 'd' will move the character right while pressing 'space' will initiate a jump, allowing the character to clear the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 65/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform at the left side of the screen, with a large blue area to the right, which likely represents the goal area. There are no visible obstacles in front, so moving right with the 'd' key is the most efficient action to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 66/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and to reach the right platform, they must jump to the right. Holding 'd' to move right while pressing 'space' will allow the character to jump across the gap to the other side."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 66/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with open space to the right, and there are no immediate obstacles. Moving right with the 'd' key is the most straightforward way to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 67/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is standing on the left platform and needs to cross the gap to reach the right platform. To do so, I should jump and move right by holding the 'd' key while pressing 'space' to perform a rightward jump."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 67/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge, and the goal is to move to the right side of the level. Holding the 'd' key will move the character rightward to progress toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 68/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap between two platforms. To progress to the right side of the level, the player must jump across the gap. Holding 'd' to move right while pressing 'space' to jump will allow the character to launch into the air and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 68/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with no immediate obstacles, and the goal is to move to the right side of the level. Holding the 'd' key will allow continuous movement to the right, progressing toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 69/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the goal is to reach the right side of the level. To cross the gap efficiently, the player must jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap across the gap and land on the target platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 69/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform with an open blue area to the right, indicating the goal is to move right. Pressing 'd' will move the character forward to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 70/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform, and the goal is to reach the right platform. To cross the gap, the character must jump to the right. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap across the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 70/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, with the goal to move to the right side. There are no immediate obstacles or gaps that require jumping. The most efficient action to progress is to hold the 'd' key to move right continuously."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 71/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, facing a gap to the right platform. To cross the gap efficiently, I need to jump right. Holding 'd' to move right while pressing 'space' to jump will allow me to propel forward and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 71/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform with a large gap to the right, and there are no obstacles blocking the path forward. To progress toward the right side of the level, the player should press the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 72/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is on the left platform and needs to cross the gap to reach the right platform. Jumping right (combining 'd' and 'space') is the only way to progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 72/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue void to the right, indicating that moving right will progress the game. There are no immediate obstacles blocking the path, so pressing 'd' will move the character forward toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 73/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is at the edge of a gap and needs to jump to the right platform to progress. Holding 'd' to move right while pressing 'space' to jump will allow the player to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 73/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, and the goal is to move to the right side. There are no visible obstacles blocking the path forward, so pressing 'd' to move right is the most direct and efficient action to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 74/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform and needs to cross the gap to reach the right platform. Jumping right will allow the character to land on the right platform and continue the level. Holding 'd' to move right while pressing 'space' to jump is the optimal action to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 74/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform near the right edge of the visible area. To progress toward the right side of the level, the player needs to move right. Holding the 'd' key will allow continuous movement to the right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 75/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the goal is to reach the right side. To cross this gap, the player must jump. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap across the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 75/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with an open blue space to the right, indicating the goal is to move right. Pressing 'd' will move the player forward to reach the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 76/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a gap to the right platform. To cross the gap, I need to jump to the right. Holding 'd' to move right while pressing 'space' to jump will allow me to propel myself toward the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 76/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large gap to the right. To progress, the character needs to move right. Pressing 'd' will move the character to the right along the platform, allowing further exploration."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 77/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a gap to the right platform. To cross the gap and progress, the player needs to jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the character to jump toward the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 77/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with clear space to the right, and no visible obstacles are blocking the path. Moving right with the 'd' key is the most efficient action to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 78/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap and needs to jump to the right platform to progress. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 78/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform and needs to move right to progress. Pressing 'd' will move the character to the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 79/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right side. There is a gap between the two platforms, so jumping to the right is necessary to progress. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 79/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with open space to the right, and there are no visible obstacles in the immediate path. To progress towards the right side of the level, moving right is the most efficient action. Holding the 'd' key will allow continuous movement to the right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 80/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform, with a gap to the right platform. To cross the gap and progress toward the right side of the level, the character must jump to the right platform. Pressing 'd' to move right and 'space' to jump simultaneously will allow the character to perform a jumping action to reach the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 80/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is on a platform with a large empty space to the right, indicating the goal is to move right. Pressing 'd' will move the character toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 81/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, facing a gap to the right platform. To cross the gap and progress, I need to jump to the right. Holding 'd' to move right while pressing 'space' to jump will allow me to launch across the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 81/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform with a large blue area to the right, indicating the goal is to move right. Pressing 'd' will move the character toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 82/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the goal is to reach the right side. Jumping right (holding 'd' while pressing 'space') is the only way to cross the gap and progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 82/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level and needs to move right to reach the goal. Pressing 'd' will move the character rightward across the platform. There are no immediate obstacles or gaps that require jumping, so continuous right movement is the most efficient action."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 83/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the goal is to move to the right side of the level. To cross the gap, the character needs to jump. Holding 'd' to move right while pressing 'space' to jump will allow the character to propel forward and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 83/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the edge of a gap. To progress to the right side of the level, the character must move right. Holding the 'd' key will allow continuous movement to the right, which is the most straightforward action to achieve the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 84/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is positioned at the edge of a gap and needs to jump to the right platform to progress. Holding 'd' to move right while pressing 'space' to jump will allow the player to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 84/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, with open space to the right. To progress toward the right side of the level, the most direct and efficient action is to hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 85/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap, and to cross to the right platform, I need to jump right. Holding 'd' to move right while pressing 'space' to jump will allow me to propel myself across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 85/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform and needs to move right to reach the goal. Holding the 'd' key will move the character to the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 86/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is at the edge of a gap, and the right platform is visible. To cross the gap efficiently, the player needs to jump right. Holding 'd' to move right while pressing 'space' to jump will allow the player to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 86/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to progress. There are no immediate obstacles blocking the path, so holding the 'd' key will move the player forward efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 87/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform, with a gap to the right platform. To cross the gap efficiently, I should hold the 'd' key to move right while pressing 'space' to jump, allowing for a controlled jump onto the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 87/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with an open blue space to the right, indicating that moving right is the intended progression. Holding 'd' will move the player to the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 88/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform and needs to jump to the right platform to progress. To do so, I should hold the 'd' key to move right while pressing 'space' to jump, allowing the character to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 88/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the level, with open blue space to the right. The goal is to move to the right side, so holding the 'd' key will move the character rightward to progress."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 89/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, and the goal is to reach the right side. There is a visible gap that needs to be crossed. To jump across the gap efficiently, I should hold the 'd' key to move right while pressing 'space' to initiate a jump, allowing for a controlled jump towards the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 89/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform, and the goal is to reach the right side of the level. There are no visible obstacles in the immediate right direction, so holding the 'd' key to move right is the most efficient action to progress."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 90/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is at the edge of a platform with a large gap to the right. To progress, the player needs to jump over the gap. Holding 'd' to move right while pressing 'space' to jump will allow the player to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 90/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is standing on a platform at the edge of the screen, with the goal to move to the right side of the level. There are no visible obstacles blocking the path forward, so holding the 'd' key will move the character rightward efficiently to progress."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 91/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is standing on the left platform and needs to cross the gap to reach the right platform. Jumping while moving right will allow the character to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 91/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the visible area, with no immediate obstacles. To progress toward the right side of the level, the most efficient action is to hold the 'd' key to move right."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 92/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is standing at the edge of a gap, and the goal is to reach the right side. To cross the gap efficiently, the player should jump to the right. This requires holding the 'd' key to move right while pressing 'space' to jump, enabling a rightward jump over the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 92/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge, but there is still space to move right to progress. Holding the 'd' key will allow the character to move rightward along the platform toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 93/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a significant gap to the right platform. To reach the right side of the level, the character must jump to cross the gap. Holding 'd' to move right while pressing 'space' to jump will allow the character to launch across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 93/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is on a platform and needs to move to the right side of the level. There are no obstacles in the direct path to the right, so holding the 'd' key will move the character forward efficiently."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 94/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player is on the left platform and needs to reach the right platform. Jumping while moving right will allow the player to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 94/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is on a platform and needs to move right to reach the goal. Pressing 'd' will move the character forward without requiring any jumps since there are no visible gaps or obstacles ahead."
+}
+```
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 95/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and the goal is to reach the right side of the level. Jumping right will allow the character to cross the gap and progress."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 95/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform near the right edge of the visible area, with a large blue void to the right. To progress, the player needs to move right. Holding the 'd' key will allow the character to move rightward toward the goal."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 96/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned at the edge of a gap and needs to jump to the right platform to progress. Holding 'd' to move right while pressing 'space' to jump will allow the character to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 96/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the edge of the visible screen, with a large blue area to the right that likely represents the goal or next area. Pressing 'd' will move the character to the right to progress toward the objective."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 97/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The character is positioned on the left platform with a gap to the right platform. To reach the right side, I need to jump right. Holding 'd' to move right while pressing 'space' to jump will allow me to leap across the gap and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 97/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform with a large blue area to the right, which likely represents the goal or next section. To progress, I need to move right, so holding the 'd' key will allow continuous movement toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 98/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is standing on the left platform, and the goal is to reach the right side. There is a gap between the platforms, so jumping to the right platform is necessary. Pressing 'd' to move right and 'space' to jump simultaneously will allow the character to jump over the gap and land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 98/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player is positioned on a platform with open space to the right, indicating that moving right is the logical next step to progress toward the goal. Holding 'd' will allow continuous movement to the right without needing to jump, which is efficient for advancing across the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 99/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned on the left platform, with a significant gap to the right platform. To reach the goal, the character must jump to the right platform. Holding 'd' to move right while pressing 'space' to jump will allow the character to leap across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 99/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The player character is positioned on a platform at the left side of the screen, with an open blue area (likely water or void) to the right. Moving right is the only way to progress toward the goal, which is to reach the right side of the level. Holding 'd' will move the character rightward on the platform."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 100/100)==========
+```json
+{
+    "action": "hold_press",
+    "keys": ["d", "space"],
+    "reason": "The player character is positioned at the edge of a gap, and to progress to the right side of the level, they need to jump over the gap. Holding 'd' to move right while pressing 'space' to jump will allow the character to clear the gap efficiently."
+}
+```
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 100/100)==========
+{
+    "action": "hold_press",
+    "keys": ["d"],
+    "reason": "The character is positioned on a platform with clear space to the right, and there are no visible obstacles blocking forward progress. Pressing 'd' will move the character to the right, which is the intended objective."
+}
+GRADE: correct

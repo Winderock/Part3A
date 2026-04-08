@@ -1,0 +1,10 @@
+{
+  "beside_edge.png": {
+    "action": "hold_press",
+    "keys": ["d", "space"]
+  },
+  "plain_ground.png": {
+    "action": "hold_press",
+    "keys": ["d"]
+  }
+}
