@@ -1,0 +1,18 @@
+{
+  "a.png": {
+    "action": "hold",
+    "keys": ["d", "space"]
+  },
+  "b.png": {
+    "action": "hold",
+    "keys": ["d", "space"]
+  },
+  "c.png": {
+    "action": "hold",
+    "keys": ["d", "space"]
+  },
+  "d.png": {
+    "action": "hold",
+    "keys": ["d", "space"]
+  }
+}

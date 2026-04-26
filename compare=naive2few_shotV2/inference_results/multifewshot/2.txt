@@ -1,0 +1,1109 @@
+scenario: special_cases  variant: multifewshot
+images: D:\UniStudies\Year3\PartIIIproject\codes\Part3A\compare=naive2few_shot\special_cases
+answers: D:\UniStudies\Year3\PartIIIproject\codes\Part3A\compare=naive2few_shot\special_cases\ground_truth.txt
+
+Per-image accuracy (this run):
+  beside_edge.png: 50/50 correct (100.0%)
+  plain_ground.png: 50/50 correct (100.0%)
+
+Run accuracy (all graded): 100/100 correct (100.0%)
+==========Screenshot beside_edge.png (repeat 1/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is at the edge of a gap, so I should hold 'd' to move right and 'space' to jump, to successfully cross the gap and continue moving to the right."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 1/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently on a solid platform with no gaps or obstacles ahead. To progress toward the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 2/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is at the edge of a gap, and to cross it, I need to jump to the right platform. Holding 'd' while pressing 'space' will allow me to move right and jump simultaneously to land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 2/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently on a solid platform with no visible gaps or obstacles ahead. To progress rightward as the objective requires, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 3/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap, and to cross to the right platform, I need to jump right. Therefore, I will hold 'd' to move right and 'space' to initiate a jump simultaneously to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 3/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no obstacles or gaps visible. To progress to the right, the optimal action is to hold the 'd' key to move forward continuously."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 4/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is positioned at the edge of a gap, and to progress to the right platform, I need to jump. Holding 'd' to move right while pressing 'space' to jump will allow me to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 4/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps or obstacles ahead. The most efficient action is to move right by holding the 'd' key to progress further in the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 5/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap, and to proceed, I need to jump to the right platform. Pressing 'd' and 'space' simultaneously will allow the cat to jump right and land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 5/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is standing on a solid platform with no gaps ahead. The objective is to move right, so I should hold the 'd' key to continue moving rightward along the platform."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 6/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is positioned at the edge of a gap, which needs to be jumped over to progress. The best action is to hold 'd' to move right while pressing 'space' to initiate a jump, allowing the character to cross the gap efficiently."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 6/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is on a solid platform with no gaps ahead. To progress to the right side of the level, I should move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 7/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is standing on the edge of a platform with a significant gap to the right. To progress, I need to jump over this gap. Holding 'd' to move right while pressing 'space' to jump will allow the cat to cross the gap successfully."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 7/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The character is standing on a solid platform with no obstacles in the immediate vicinity. To progress towards the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 8/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is positioned at the edge of a gap between two platforms. To safely cross this gap, I need to jump forward by holding 'd' to move right and pressing 'space' to jump simultaneously. This will allow the character to move forward and land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 8/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is standing on a solid platform with no gaps or obstacles ahead. The goal is to move right, so I should hold the 'd' key to continue moving forward."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 9/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is standing on the edge of a platform, and there is a visible gap to the right. To cross this gap and continue progressing, I need to jump to the right platform. Therefore, I should hold 'd' to move right and 'space' to jump simultaneously."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 9/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently on a solid platform with no obstacles or gaps visible. To progress to the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 10/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms, so I need to jump to cross the gap. Holding 'd' to move right while pressing 'space' to jump will allow me to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 10/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is standing on a solid platform and there are no gaps to jump over. The objective is to move as far right as possible, so holding the 'd' key to move right is the most efficient action."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 11/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned on the left platform, and there is a gap between the left and right platforms. To cross the gap, I need to jump right, so I will hold both 'd' and 'space' keys simultaneously to move right while jumping."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 11/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently on a solid platform with no obstacles ahead. To progress toward the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 12/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms. To cross this gap, I need to jump to the right platform. The action 'hold d space' will allow the cat to jump towards the right platform to continue progressing."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 12/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps or obstacles ahead. To progress to the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 13/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms. To cross this gap and continue progressing to the right, I need to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow me to launch over the gap and land safely on the other platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 13/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps or obstacles in the immediate vicinity. To progress towards the right side of the level, the most efficient action is to hold the 'd' key to move continuously right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 14/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is at the edge of a gap, and to cross it, I must jump to the right platform. Holding 'd' and 'space' together will make the cat jump forward, allowing it to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 14/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is standing on a solid platform with no obstacles in front. To progress towards the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 15/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms. To cross the gap and continue progressing to the right, I need to jump. Holding 'd' to move right and 'space' to jump simultaneously will allow the cat to leap across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 15/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is on a solid platform, and there are no gaps or obstacles to the right. The goal is to move right, so I should hold the 'd' key to continue moving forward."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 16/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is at the edge of a gap between two platforms. To cross this gap and continue progressing right, I need to jump. Holding 'd' while pressing 'space' will allow the cat to move right and jump simultaneously to land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 16/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps or obstacles ahead. The goal is to move right as far as possible, so holding the 'd' key to move right is the most efficient action."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 17/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The scene shows the character at the edge of a gap. To cross this gap and continue progressing to the right, I must jump. Holding 'd' to move right while pressing 'space' to jump will allow me to leap over the gap and land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 17/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is standing on a solid platform with no gaps or obstacles in front. To progress toward the right side of the level, I should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 18/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is standing on the left platform, and there is a large gap to the right platform. To cross this gap, I must jump. Holding 'd' to move right while pressing 'space' to jump will allow the cat to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 18/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is standing on a solid platform with no gaps or obstacles in front of it. To move forward and progress to the right side of the level, I should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 19/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms. To cross the gap and continue progressing to the right, I must jump. Holding 'd' to move right while pressing 'space' to jump simultaneously will allow me to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 19/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no obstacles or gaps ahead. The goal is to move right as far as possible, so continuously holding the 'd' key will allow the cat to advance across the platform."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 20/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap, and the right side is a solid platform. To cross the gap and continue progressing, I must jump right. Therefore, I will hold both the 'd' key to move right and the 'space' key to initiate a jump simultaneously."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 20/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The character is positioned on a solid platform with no obstacles or gaps ahead. To progress toward the right side of the level, the most efficient action is to hold the 'd' key to move right continuously."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 21/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is positioned at the edge of a gap, and the goal is to progress right. To cross the gap efficiently, I need to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow me to move forward and land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 21/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently on a solid platform with no gaps or obstacles in the immediate right direction. To progress toward the right side of the level, I should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 22/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned on the left platform, with a large gap to the right platform. To progress, I need to jump toward the right platform by holding 'd' and pressing 'space' simultaneously."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 22/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is standing on a solid platform, and there are no gaps or obstacles immediately ahead. To progress to the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 23/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is positioned on the left platform, with a significant gap to the right platform. To cross this gap, I must jump right. The most efficient action is to hold 'd' to move right while pressing 'space' to initiate the jump, allowing for a controlled landing on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 23/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is on a solid platform with no gaps in sight. To progress rightwards, I should hold the 'd' key to move forward."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 24/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned on the left platform with a large gap to the right platform. To cross this gap, I need to jump right. Therefore, I should hold both 'd' to move right and 'space' to jump simultaneously."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 24/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The character is on a solid platform with no gaps or obstacles ahead. To progress to the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 25/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is positioned at the edge of a gap between two platforms. To cross the gap and continue moving right, I must jump. Holding 'd' and 'space' together will allow the character to move right while jumping, enabling a successful jump over the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 25/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently standing on a solid platform with no immediate gaps or obstacles. To progress towards the right side of the level, the most efficient action is to hold the 'd' key to move right continuously."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 26/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms. To cross the gap and continue moving right, I need to jump. Holding 'd' to move right while pressing 'space' to jump will allow the cat to land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 26/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently on a solid platform with no immediate obstacles. To progress to the right, I should hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 27/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The scene shows the cat at the edge of a gap, I should jump over the gap to progress, by holding 'd' key to move right while pressing 'space' at the same time."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 27/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps ahead. The optimal action is to move right by holding the 'd' key to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 28/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is standing on the edge of a platform, and there is a clear gap to the right platform. To cross the gap and progress, I should hold 'd' to move right while pressing 'space' to jump, enabling a rightward jump over the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 28/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform, and there are no gaps or obstacles ahead. To progress rightward, the optimal action is to hold the 'd' key to move continuously to the right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 29/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a large gap. To cross it and continue progressing, I must jump. Holding 'd' to move right while pressing 'space' to jump will allow me to land on the platform on the right."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 29/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps or obstacles ahead. To progress towards the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 30/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms. To progress and reach the right side of the level, I need to jump over the gap. Holding 'd' to move right while pressing 'space' to jump will allow me to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 30/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently on a solid platform with no gaps or obstacles in front. To progress rightward, the optimal action is to hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 31/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms. To cross the gap and progress, I need to jump to the right platform. Holding 'd' and 'space' simultaneously will allow me to jump right and land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 31/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is standing on a solid platform with no gaps or obstacles ahead. The goal is to move right as far as possible, so I should hold the 'd' key to continuously move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 32/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned on the left platform, and there is a visible gap to the right platform. To cross this gap, I need to jump towards the right platform by holding 'd' and pressing 'space' simultaneously."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 32/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The character is currently on a solid platform with no gaps to jump over. To progress rightward and reach the far side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 33/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap, and to cross it efficiently, I should jump to the right platform. Holding 'd' and 'space' simultaneously will allow the cat to jump forward and land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 33/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is standing on a solid platform with no gaps to jump over. The objective is to move right as far as possible, so I should hold the 'd' key to continuously move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 34/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is positioned on the left platform, with a visible gap to the right platform. To cross this gap, I must jump while moving right. Holding 'd' and 'space' simultaneously will allow me to jump toward the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 34/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The character is positioned on a solid platform with no gaps or obstacles immediately ahead. To progress towards the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 35/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms. To progress to the right platform, I need to jump over the gap. Holding 'd' to move right while pressing 'space' to jump will allow me to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 35/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no obstacles or gaps in sight. To progress towards the right side of the level, the optimal action is to hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 36/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is standing on the left platform, and there is a significant gap to the right platform. To cross the gap, I need to jump to the right platform. Therefore, I will hold 'd' to move right while pressing 'space' to jump, which will allow me to land on the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 36/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is on a solid platform with no obstacles, so I should continue moving right to progress."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 37/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The scene shows the cat standing on the edge of a gap, I need to jump over the gap to continue moving right. Holding 'd' and 'space' together will allow the character to jump towards the right platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 37/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps or obstacles ahead, the most efficient action is to continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 38/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The scene shows the cat at the edge of a gap, to cross it, I need to jump. Holding 'd' to move right and 'space' to jump will allow me to move forward and jump over the gap to the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 38/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently on a solid platform with no gaps or obstacles ahead. To progress towards the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 39/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap, to proceed further, I need to jump over this gap by pressing 'd' to move right while holding 'space' to jump simultaneously."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 39/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps or obstacles ahead. To progress toward the right side of the level, the most efficient action is to hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 40/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is positioned at the edge of a gap between two platforms. To cross the gap and continue progressing to the right, the character must jump. Holding 'd' to move right while pressing 'space' to jump will allow the character to move forward and jump across the gap simultaneously."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 40/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently standing on a solid platform with no gaps in sight. To progress to the right side of the level as far as possible, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 41/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap. To progress and reach the platform on the right, I need to jump over the gap. Holding 'd' to move right while pressing 'space' to jump will allow the cat to cross the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 41/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The character is on a solid platform and there are no gaps or obstacles ahead. The optimal action is to move right continuously using the 'd' key to progress toward the right side of the level."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 42/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is standing on the left platform and there is a large gap to the right platform. To cross the gap, I need to jump toward the right platform. Holding 'd' while pressing 'space' will allow the cat to jump right and land on the other platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 42/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is on a solid platform with no gaps or obstacles in front of it. To progress towards the right side of the level, I should continuously hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 43/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The scene shows the cat at the edge of a gap, I should jump over the gap to progress, by holding 'd' key to move right while pressing 'space' at the same time."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 43/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently on a solid platform with no gaps or obstacles ahead. To progress towards the right side of the level, I should continue moving right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 44/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The scene shows the cat at the edge of a gap, I should jump over the gap to progress, by holding 'd' key to move right while pressing 'space' at the same time."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 44/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is on a solid platform, and the right side is clear. To proceed toward the goal of moving right, I should hold the 'd' key to move continuously to the right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 45/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned on the left platform, facing a gap to the right. To progress, I need to jump to the right platform. Holding 'd' to move right and 'space' to jump simultaneously will allow the cat to cross the gap effectively."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 45/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently standing on a solid platform with no gaps or obstacles in front of it. To move forward and progress towards the right side of the level, the optimal action is to hold the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 46/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap between two platforms. To cross the gap and progress, I need to jump towards the right platform. Holding 'd' to move right while pressing 'space' to jump will allow me to land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 46/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps in sight. To progress rightward, the optimal action is to hold the 'd' key to move continuously to the right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 47/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is standing at the edge of a gap. To cross this gap and continue progressing, I need to jump forward. Holding 'd' to move right while pressing 'space' to jump will allow me to leap across the gap."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 47/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform, and the goal is to move right. There are no gaps or obstacles in the immediate path, so the optimal action is to hold the 'd' key to continue moving right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 48/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is at the edge of a gap, and there is a platform to the right. To cross this gap, I must jump by holding 'd' to move right and pressing 'space' to jump simultaneously."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 48/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no gaps to cross. The objective is to move as far right as possible, so I should continuously move right by holding the 'd' key."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 49/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The cat is positioned at the edge of a gap, and to progress, I need to jump to the right platform. The action of holding 'd' and 'space' simultaneously will allow the cat to move right while jumping, enabling it to land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 49/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is currently standing on a solid platform with no immediate obstacles. The objective is to move as far right as possible, so I should continue holding the 'd' key to move right."
+}
+GRADE: correct
+==========Screenshot beside_edge.png (repeat 50/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d", "space"]
+        }
+    ],
+    "reason": "The character is positioned at the edge of a gap between two platforms. To progress, I must jump to the right platform. Holding 'd' while pressing 'space' will make the character jump right, allowing me to land on the next platform."
+}
+GRADE: correct
+==========Screenshot plain_ground.png (repeat 50/50)==========
+{
+    "sequence": [
+        {
+            "action": "hold",
+            "keys": ["d"]
+        }
+    ],
+    "reason": "The cat is positioned on a solid platform with no obstacles or gaps ahead. To progress to the right, I should hold the 'd' key to move right."
+}
+GRADE: correct

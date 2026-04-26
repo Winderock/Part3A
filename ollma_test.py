@@ -2,6 +2,7 @@ import json
 import os
 import re
 import time
+import argparse
 
 import mss
 import ollama
@@ -23,26 +24,23 @@ PAUSE_KEY = "p"
 
 
 PROMPT = """
-You are playing a 2D side-scrolling platformer game independently, your objective is to move to the right as much as possible, falling into gaps will reset your progress, but you can jump over them.
+You are playing a 2D side-scrolling platformer game independently, your objective is to move to the right as far as possible, without falling into any gaps.
 
-Your character is a white cat centered in the screen.
+Your character is a white cat centered in the screen, the background is light blue, and the ground's texture is dark blue bricks, use the difference in texture to identify solid ground and gaps.
 Use keys "a" to move left and "d" to move right, 
 "space" to jump (can be combined with "a" or "d" to jump left or right).
 
-You will be given consecutive game frames from oldest to newest.
-Base your action on the latest frame, but use earlier frames to infer motion and situation, then reason step by step for a reasonable action to progress:
-1) By looking into the latest frame, use a few sentences to describe your character's position and relative position to any gaps or obstacles.
-2) By looking into the earlier frames, use another few sentences to infer the motion of yourself and any obstacles.
-3) After evaluating the situation, decide what kind of action from the following, in strict JSON format:
+You will be given game screenshots showing the current game state, then reason step by step for a reasonable and efficient action to take:
+1) Evaluate the given game screenshot, use a few sentences to describe the position of yourself and relative position to any gaps or obstacles.
+
+2) After evaluating the given game screenshot, decide what kind of action from the following, in strict JSON format:
 {
-    "action": "hold_press|no_action",
+    "action": "hold_press",
     "keys": ["key1", "key2"],
-    "earlier_frames_description": "your description of the motion and situation from the earlier frames",
-    "reason": "your reason for the action"
+    "reason": "reason"
 }
 
 hold_press: specify two keys, hold both keys for a period of time.
-no_action: do nothing.
 """
 
 
@@ -51,7 +49,6 @@ REASONING_EXAMPLES = """
 =======Reasoning Examples=======
 a) The scene shows the cat at the left-side edge of a gap, I should jump right by holding "d" and "space" at the same time to get over the gap.
 c) The cat is on a plain platform and no gaps or obstacles in front, I should press "d" key to move right and explore further into the level.
-d) The scene is not clear, I should not take any action and wait for a logical scene.
 """
 
 def get_window_rect(title_keyword: str):
@@ -164,7 +161,18 @@ def apply_action(action: dict, window_rect):
         raise ValueError(f"Unknown action: {act}")
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--latest-frame-only",
+        action="store_true",
+        help="Only send the latest captured frame to the model instead of a sequence of frames.",
+    )
+    return parser.parse_args()
+
+
 def main():
+    args = parse_args()
     os.makedirs(CAPTURE_DIR, exist_ok=True)
     frame = 0
     game_paused_by_us = False
@@ -186,6 +194,10 @@ def main():
     
     print("starts after 5 seconds")
     time.sleep(5)
+    print(
+        "inference mode:",
+        "latest-frame-only" if args.latest_frame_only else "multi-frame-sequence",
+    )
 
     # First iteration: take no action, but still collect frames during that "action window"
     action = {"action": "no_action", "keys": [], "reason": "bootstrap"}
@@ -225,8 +237,10 @@ def main():
             print(f"{tag} no frames captured during action window; keeping last action")
             continue
 
-        print(f"{tag} captured {image_paths} frames during action window")
-        raw_output = ask_model(image_paths)
+        model_images = image_paths[-1:] if args.latest_frame_only else image_paths
+        print(f"{tag} captured {len(image_paths)} frames during action window")
+        print(f"{tag} sending {len(model_images)} frame(s) to model")
+        raw_output = ask_model(model_images)
         print(f"{tag} model output: {raw_output}")
         action = parse_json(raw_output)
 
